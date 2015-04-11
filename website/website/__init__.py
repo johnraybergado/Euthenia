@@ -14,6 +14,10 @@ def world():
 def detailed(country=None):
 	return render_template('detailed.html', country=country)
 
+@app.route('/us/')
+def us():
+	return render_template('us.html')
+
 if __name__ == '__main__':
 	app.debug = True
 	app.run()
