@@ -14,7 +14,7 @@ def world():
 def detailed(country=None):
 	return render_template('detailed.html', country=country)
 
-@app.route('/us/')
+@app.route('/us')
 def us():
 	return render_template('us.html')
 
