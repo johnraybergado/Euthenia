@@ -35,14 +35,15 @@
 }
 </style>
 <!-- <script src='/mapbox.js/assets/data/us-states.js'></script> -->
-<script src='data/countries_trial0.js'></script>
-<script src='js/d3.min.js'></script>
+<script src='../static/data/countries_trial0.js'></script>
+<script src='../static/js/d3.min.js'></script>
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoiZGltYWR1YW4wMjQiLCJhIjoickFTSjk5OCJ9.WKoh_rNOtYLGdJ_fNHHsig';
   var map = L.mapbox.map('map', 'mapbox.dark') //'examples.map-i86nkdio')
-    .setView([15, 0], 2.6);
+    .setView([15, 0], 2.6)
+    .setMaxBounds([[-90, -180], [90, 180]]);
 
-  var popup = new L.Popup({ autoPan: true, className: 'poly-popup' });
+  var popup = new L.Popup({ autoPan: true, className: 'poly-popup', closeButton: true });
 
   // statesData comes from the 'us-states.js' script included above
   var statesLayer = L.geoJson(countriesData,  {
@@ -74,27 +75,27 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiZGltYWR1YW4wMjQiLCJhIjoickFTSjk5OCJ9.WKoh_rNO
 
   function onEachFeature(feature, layer) {
       layer.on({
-          click: mouseclick,
+          mouseover: hover,
           mouseout: mouseout,
-          //click: zoomToFeature
+          click: mouseclick
       });
   }
 
   var closeTooltip;
 
-  function mouseclick(e) {
+  function hover(e) {
       var layer = e.target;
 
       popup.setLatLng(e.latlng);
-      popup.setContent('<div class="marker-title">' + layer.feature.properties.name + '</div>' +
-          layer.feature.properties.iso_n3 + ' people per square mile');
+      popup.setContent('<div class="marker-title" >' + layer.feature.properties.name + '</div>' +
+          layer.feature.properties.iso_n3 + ' Self-sufficiency index');
 
       if (!popup._map) popup.openOn(map);
       window.clearTimeout(closeTooltip);
 
       // highlight feature
       layer.setStyle({
-          weight: 3,
+          weight: 4,
           opacity: 0.3,
           fillOpacity: 0.9
       });
@@ -103,9 +104,6 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiZGltYWR1YW4wMjQiLCJhIjoickFTSjk5OCJ9.WKoh_rNO
           layer.bringToFront();
       }
 
-      //var generator = new arc.GreatCircle(layer.feature.getBounds().getCenter(), layer.feature.properties.to_export, { name: 'Seattle to DC' });
-
-      console.log(layer.feature.getBounds().getCenter())
       // from http://bl.ocks.org/mbostock/3887193
       var width = 250,
           height = 250,
@@ -128,7 +126,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiZGltYWR1YW4wMjQiLCJhIjoickFTSjk5OCJ9.WKoh_rNO
         .append("g")
           .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-      d3.csv("data/pie_data.csv", function(error, data) {
+      d3.csv("../static/data/pie_data.csv", function(error, data) {
 
         data.forEach(function(d) {
           d.population = +d.population;
@@ -156,7 +154,12 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiZGltYWR1YW4wMjQiLCJhIjoickFTSjk5OCJ9.WKoh_rNO
       statesLayer.resetStyle(e.target);
       closeTooltip = window.setTimeout(function() {
           map.closePopup();
-      }, 100);
+      }, 10);
+  }
+
+  function mouseclick(e) {
+      var layer = e.target;
+      window.location.href = '/detailed/' + layer.feature.properties.name;
   }
 
   // function zoomToFeature(e) {
@@ -179,7 +182,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiZGltYWR1YW4wMjQiLCJhIjoickFTSjk5OCJ9.WKoh_rNO
         from + (to ? '&ndash;' + to : '+')) + '</li>';
     }
 
-    return '<span>People per square mile</span><ul>' + labels.join('') + '</ul>';
+    return '<span>Self-sufficiency Index</span><ul>' + labels.join('') + '</ul>';
   }
 </script>
 </body>
