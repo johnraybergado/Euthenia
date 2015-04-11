@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Choropleth</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.7/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.7/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+<div id='map'></div>
+
+<style>
+.map-legend .swatch {
+  width:20px;
+  height:20px;
+  float:left;
+  margin-right:10px;
+  }
+.leaflet-popup-close-button {
+  display: none;
+  }
+.leaflet-popup-content-wrapper {
+  pointer-events: none;
+  }
+.arc path {
+  stroke: #fff;
+}
+.poly-popup {
+  width: 275px;
+}
+</style>
+<!-- <script src='/mapbox.js/assets/data/us-states.js'></script> -->
+<script src='../static/data/countries_trial0.js'></script>
+<script src='../static/js/d3.min.js'></script>
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiZGltYWR1YW4wMjQiLCJhIjoickFTSjk5OCJ9.WKoh_rNOtYLGdJ_fNHHsig';
+  var map = L.mapbox.map('map', 'mapbox.dark') //'examples.map-i86nkdio')
+    .setView([15, 0], 2.6)
+    .setMaxBounds([[-90, -180], [90, 180]]);
+
+  var popup = new L.Popup({ autoPan: true, className: 'poly-popup', closeButton: true });
+
+  // statesData comes from the 'us-states.js' script included above
+  var statesLayer = L.geoJson(countriesData,  {
+      style: getStyle,
+      onEachFeature: onEachFeature
+  }).addTo(map);
+
+  function getStyle(feature) {
+      return {
+          weight: 2,
+          opacity: 0.1,
+          color: 'black',
+          fillOpacity: 0.7,
+          fillColor: getColor(feature.properties.iso_n3)
+      };
+  }
+
+  // get color depending on population density value
+  function getColor(d) {
+      return d > 1000 ? '#8c2d04' :
+          d > 500  ? '#cc4c02' :
+          d > 200  ? '#ec7014' :
+          d > 100  ? '#fe9929' :
+          d > 50   ? '#fec44f' :
+          d > 20   ? '#fee391' :
+          d > 10   ? '#fff7bc' :
+          '#ffffe5';
+  }
+
+  function onEachFeature(feature, layer) {
+      layer.on({
+          mouseover: hover,
+          mouseout: mouseout,
+          click: mouseclick
+      });
+  }
+
+  var closeTooltip;
+
+  function hover(e) {
+      var layer = e.target;
+
+      popup.setLatLng(e.latlng);
+      popup.setContent('<div class="marker-title" >' + layer.feature.properties.name + '</div>' +
+          layer.feature.properties.iso_n3 + ' Self-sufficiency index');
+
+      if (!popup._map) popup.openOn(map);
+      window.clearTimeout(closeTooltip);
+
+      // highlight feature
+      layer.setStyle({
+          weight: 4,
+          opacity: 0.3,
+          fillOpacity: 0.9
+      });
+
+      if (!L.Browser.ie && !L.Browser.opera) {
+          layer.bringToFront();
+      }
+
+      // from http://bl.ocks.org/mbostock/3887193
+      var width = 250,
+          height = 250,
+          radius = Math.min(width, height) / 2;
+
+      var color = d3.scale.ordinal()
+          .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+
+      var arc = d3.svg.arc()
+          .outerRadius(radius - 10)
+          .innerRadius(radius - 70);
+
+      var pie = d3.layout.pie()
+          .sort(null)
+          .value(function(d) { return d.population; });
+
+      var svg = d3.select(".marker-title").append("svg")
+          .attr("width", width)
+          .attr("height", height)
+        .append("g")
+          .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+      d3.csv("../static/data/pie_data.csv", function(error, data) {
+
+        data.forEach(function(d) {
+          d.population = +d.population;
+        });
+
+        var g = svg.selectAll(".arc")
+            .data(pie(data))
+          .enter().append("g")
+            .attr("class", "arc");
+
+        g.append("path")
+            .attr("d", arc)
+            .style("fill", function(d) { return color(d.data.age); });
+
+        g.append("text")
+            .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+            .attr("dy", ".35em")
+            .style("text-anchor", "middle")
+            .text(function(d) { return d.data.age; });
+
+      });
+  }
+
+  function mouseout(e) {
+      statesLayer.resetStyle(e.target);
+      closeTooltip = window.setTimeout(function() {
+          map.closePopup();
+      }, 10);
+  }
+
+  function mouseclick(e) {
+      var layer = e.target;
+      window.location.href = '/detailed/' + layer.feature.properties.name;
+  }
+
+  // function zoomToFeature(e) {
+  //     map.fitBounds(e.target.getBounds());
+  // }
+
+  map.legendControl.addLegend(getLegendHTML());
+
+  function getLegendHTML() {
+    var grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+    labels = [],
+    from, to;
+
+    for (var i = 0; i < grades.length; i++) {
+      from = grades[i];
+      to = grades[i + 1];
+
+      labels.push(
+        '<li><span class="swatch" style="background:' + getColor(from + 1) + '"></span> ' +
+        from + (to ? '&ndash;' + to : '+')) + '</li>';
+    }
+
+    return '<span>Self-sufficiency Index</span><ul>' + labels.join('') + '</ul>';
+  }
+</script>
+</body>
+</html>

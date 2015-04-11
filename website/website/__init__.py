@@ -5,6 +5,10 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/world')
+def world():
+    return render_template('world.html')
+
 @app.route('/detailed/')
 @app.route('/detailed/<country>')
 def detailed(country=None):

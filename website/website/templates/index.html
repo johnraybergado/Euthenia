@@ -1,189 +1,241 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset=utf-8 />
-<title>Choropleth</title>
-<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.7/mapbox.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.7/mapbox.css' rel='stylesheet' />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Euthenia</title>
+
 <style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
+.title{
+	font-size: 36px;
+	text-align: center;
+	font-family: "Trajan Pro";
+	padding-top: 40px;
+	margin-top:0;
+	margin-bottom:0;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.sub-title{
+	font-size: 24px;
+	text-align: center;
+	font-family: "Trajan Pro";
+	padding-top: 20px;
+	margin-top:0;
+	margin-bottom:1%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.name{
+	font-size: 20px;
+	text-align: center;
+	font-family: "Trajan Pro";
+	padding-top: 10px;
+	margin-top:2%;
+	margin-bottom:0;
+}
+
+.text{
+	font-size: 18px;
+	text-align: center;
+	font-family:"Segoe UI";
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:0;
+}
+
+.panel{
+	background-color:#FEFEFE;
+	overflow:hidden;
+	width:auto;
+}
+
+.background{
+	background-image:url(Egypt.jpg);
+	background-position:top;
+	background-size:cover;
+	margin:0;
+}
+
+.button-squared{
+	margin-top:3%;
+	margin-bottom:3%;
+	width:35%;
+	margin-left:10%;
+	height:0;
+	padding-bottom:17.5%;
+	background-color:#F00;
+	float:left;
+}
+
+.button-circle {
+    width:10%;
+	height:0;
+	padding-bottom:10%;
+	margin-left:10%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+	background-repeat:no-repeat; 
+}
+
+.button-circle-link {
+    width:10%;
+	height:0;
+	float:left;
+	margin-bottom:40px;
+	padding-bottom:10%;
+	margin-left:25%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+	background-repeat:no-repeat; 
+}
+
+.person {
+	width:10%;
+	margin-left:7.5%;
+	float:left;
+	margin-top:0;
+	margin-bottom:2%;
+}
+
+@media (max-width: 1080px) {
+	.name {
+		display: none;
+	}
+	.button-circle {
+		margin-bottom: 20px;
+	}
+	.button-circle-link {
+		margin-bottom: 20px;
+	}
+}
 </style>
+
 </head>
-<body>
-<div id='map'></div>
 
-<style>
-.map-legend .swatch {
-  width:20px;
-  height:20px;
-  float:left;
-  margin-right:10px;
-  }
-.leaflet-popup-close-button {
-  display: none;
-  }
-.leaflet-popup-content-wrapper {
-  pointer-events: none;
-  }
-.arc path {
-  stroke: #fff;
-}
-.poly-popup {
-  width: 275px;
-}
-</style>
-<!-- <script src='/mapbox.js/assets/data/us-states.js'></script> -->
-<script src='../static/data/countries_trial0.js'></script>
-<script src='../static/js/d3.min.js'></script>
-<script>
-L.mapbox.accessToken = 'pk.eyJ1IjoiZGltYWR1YW4wMjQiLCJhIjoickFTSjk5OCJ9.WKoh_rNOtYLGdJ_fNHHsig';
-  var map = L.mapbox.map('map', 'mapbox.dark') //'examples.map-i86nkdio')
-    .setView([15, 0], 2.6)
-    .setMaxBounds([[-90, -180], [90, 180]]);
+<body class="background">
+	<div class="button-circle" style="width:25%; margin-top:10%; padding-bottom:25%; margin-left:auto; margin-right:auto; background-color:#FFF;">
+	    <img src="logo.png" style="margin-top:10%; margin:auto; display:block; width:50%; padding-top:15%;"/>
+    </div>
 
-  var popup = new L.Popup({ autoPan: true, className: 'poly-popup', closeButton: true });
+<div id="description" class="panel" style="margin-top:10%;">
+        <h1 class="title">ABOUT THE PROJECT</h1>
+        
+        <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+    Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+    Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+    Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+        </p>
+        
+        <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+    Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+    Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+    Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+        </p>
+    
+        <div class="button-squared">
+    
+        </div>
+        
+        <div class="button-squared">
+            
+        </div>
+    </div>
+    
+    <div id="links" class="panel" style="margin-top:200px;">
+    	<h1 class="title" style="margin-bottom:2%;">YOU CAN FIND US ON...</h1>
+        
+   	  <a href="https://github.com/xtinkrr/Euthenia" target="_blank"><div class="button-circle-link" style="margin-left:10%; background-image:url(Images/GitHub.png); background-size:100%; background-position:center;"></div></a>
+        <a href="#" target="_blank"><div class="button-circle-link" style="background-image:url(Images/SpaceApps.png); background-size:80%; background-position:center; background-color:#E9E9E9;"></div></a>
+        <a href="https://twitter.com/search?q=SpaceAppsEuthenia" target="_blank"><div class="button-circle-link" Style="background-image:url(Images/Twitter.png); background-size:100%; background-position:center;"></div></a>
+    </div>
+    
+    <div id="team" class="panel" style="margin-top:200px;">
+    	<h1 class="title" style="margin-bottom:-20px;">OUR TEAM</h1>
+        <h2 class="sub-title">APPLICATION DEVELOPERS</h2>
+        
+        <a href="https://www.linkedin.com/profile/view?id=163181795" target="_blank"><div class="person" style="margin-left:10%;">
+	        <div class="button-circle" style="width:100%; padding-bottom:100%; margin-left:0; background-image:url(Images/D1.png); background-size:100%; background-position:center;"></div>
+        	<h2 class="name">DASH</h2>
+        	<h2 class="name" style="font-size:12px; margin-top:-6px;">MSc GFM<br />FACULTY ITC<br />UNIVERSITY OF TWENTE</h2>
+        </div></a>
+        
+        <a href="https://www.linkedin.com/profile/view?id=234640957" target="_blank"><div class="person">
+	        <div class="button-circle" style="width:100%; padding-bottom:100%; margin-left:0; background-image:url(Images/D2.png); background-size:100%; background-position:center;"></div>
+        	<h2 class="name">JR</h2>
+        	<h2 class="name" style="font-size:12px; margin-top:-6px;">MSc GFM<br />FACULTY ITC<br />UNIVERSITY OF TWENTE</h2>
+        </div></a>
+        
+        <a href="http://www.sebastiaandenboer.com" target="_blank"><div class="person">
+	        <div class="button-circle" style="width:100%; padding-bottom:100%; margin-left:0; background-image:url(Images/D3.png); background-size:100%; background-position:center;"></div>
+        	<h2 class="name">SEBASTIAAN</h2>
+        	<h2 class="name" style="font-size:12px; margin-top:-6px;">BUSINESS & IT<br />FACULTY EWI<br />UNIVERSITY OF TWENTE</h2>
+        </div></a>
+        
+        <a href="https://www.linkedin.com/profile/view?id=362888240" target="_blank"><div class="person">
+	        <div class="button-circle" style="width:100%; padding-bottom:100%; margin-left:0; background-image:url(Images/D4.png); background-size:100%; background-position:center;"></div>
+        	<h2 class="name">TOM</h2>
+        	<h2 class="name" style="font-size:11px; margin-top:-6px;">MSc GFM<br />FACULTY ITC<br />UNIVERSITY OF TWENTE</h2>
+        </div></a>
+        
+        <a href="https://www.linkedin.com/profile/view?id=98037082" target="_blank"><div class="person">
+	        <div class="button-circle" style="width:100%; padding-bottom:100%; margin-left:0; background-image:url(Images/D5.png); background-size:100%; background-position:center;"></div>
+        	<h2 class="name">QIJUN</h2>
+        	<h2 class="name" style="font-size:12px; margin-top:-6px;">PhD CANDIDATE<br />WAGENINGEN UR</h2>
+        </div></a>
+    </div>
+    
+    <div id="team" class="panel" style="margin-top:200px;">
+    	<h1 class="title" style="margin-bottom:-20px;">OUR TEAM</h1>
+        <h2 class="sub-title">DATA MODELLERS</h2>
+        
+        <a href="https://www.linkedin.com/profile/view?id=356100340" target="_blank"><div class="person" style="margin-left:10%;">
+	        <div class="button-circle" style="width:100%; padding-bottom:100%; margin-left:0; background-image:url(Images/R1.png); background-size:100%; background-position:center;"></div>
+        	<h2 class="name">AMELIA</h2>
+        	<h2 class="name" style="font-size:12px; margin-top:-6px;">MSc UPM<br />FACULTY ITC<br />UNIVERSITY OF TWENTE</h2>
+        </div></a>
+        
+        <a href="http://www.researchgate.net/profile/Mohammad_Imangholiloo" target="_blank"><div class="person">
+	        <div class="button-circle" style="width:100%; padding-bottom:100%; margin-left:0; background-image:url(Images/R2.png); background-size:100%; background-position:center;"></div>
+        	<h2 class="name">MOHAMMAD</h2>
+        	<h2 class="name" style="font-size:12px; margin-top:-6px;">PGD NRM<br />FACULTY ITC<br />UNIVERSITY OF TWENTE</h2>
+        </div></a>
+        
+        <a href="mailto:hadi@student.utwente.nl"><div class="person">
+	        <div class="button-circle" style="width:100%; padding-bottom:100%; margin-left:0; background-image:url(Images/R3.png); background-size:100%; background-position:center;"></div>
+        	<h2 class="name">HADI</h2>
+        	<h2 class="name" style="font-size:11px; margin-top:-6px;">MSc GEM<br />FACULTY ITC<br />UNIVERSITY OF TWENTE</h2>
+        </div></a>
+        
+        <a href="https://www.linkedin.com/profile/view?id=193770663" target="_blank"><div class="person">
+	        <div class="button-circle" style="width:100%; padding-bottom:100%; margin-left:0; background-image:url(Images/R4.png); background-size:100%; background-position:center;"></div>
+        	<h2 class="name">FANG</h2>
+        	<h2 class="name" style="font-size:12px; margin-top:-6px;">MSc GEM<br />FACULTY ITC<br />UNIVERSITY OF TWENTE</h2>
+        </div></a>
+        
+        <a href="https://www.linkedin.com/profile/view?id=92001235" target="_blank"><div class="person">
+	        <div class="button-circle" style="width:100%; padding-bottom:100%; margin-left:0; background-image:url(Images/R5.png); background-size:100%; background-position:center;"></div>
+        	<h2 class="name">ANGELA</h2>
+        	<h2 class="name" style="font-size:12px; margin-top:-6px;">MSc GEM<br />FACULTY ITC<br />UNIVERSITY OF TWENTE</h2>
+        </div></a>
+    </div>
+    
+    <div id="copyright" class="panel" style="margin-top:200px;">
+    	<p class="text" style="margin-bottom:10px;">Copyright © 2015, Euthenia<br />All rights reserved.</p>
+        <p class="text" style="margin-bottom:1%; font-size:9px;">Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
-  // statesData comes from the 'us-states.js' script included above
-  var statesLayer = L.geoJson(countriesData,  {
-      style: getStyle,
-      onEachFeature: onEachFeature
-  }).addTo(map);
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
-  function getStyle(feature) {
-      return {
-          weight: 2,
-          opacity: 0.1,
-          color: 'black',
-          fillOpacity: 0.7,
-          fillColor: getColor(feature.properties.iso_n3)
-      };
-  }
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
-  // get color depending on population density value
-  function getColor(d) {
-      return d > 1000 ? '#8c2d04' :
-          d > 500  ? '#cc4c02' :
-          d > 200  ? '#ec7014' :
-          d > 100  ? '#fe9929' :
-          d > 50   ? '#fec44f' :
-          d > 20   ? '#fee391' :
-          d > 10   ? '#fff7bc' :
-          '#ffffe5';
-  }
-
-  function onEachFeature(feature, layer) {
-      layer.on({
-          mouseover: hover,
-          mouseout: mouseout,
-          click: mouseclick
-      });
-  }
-
-  var closeTooltip;
-
-  function hover(e) {
-      var layer = e.target;
-
-      popup.setLatLng(e.latlng);
-      popup.setContent('<div class="marker-title" >' + layer.feature.properties.name + '</div>' +
-          layer.feature.properties.iso_n3 + ' Self-sufficiency index');
-
-      if (!popup._map) popup.openOn(map);
-      window.clearTimeout(closeTooltip);
-
-      // highlight feature
-      layer.setStyle({
-          weight: 4,
-          opacity: 0.3,
-          fillOpacity: 0.9
-      });
-
-      if (!L.Browser.ie && !L.Browser.opera) {
-          layer.bringToFront();
-      }
-
-      // from http://bl.ocks.org/mbostock/3887193
-      var width = 250,
-          height = 250,
-          radius = Math.min(width, height) / 2;
-
-      var color = d3.scale.ordinal()
-          .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
-
-      var arc = d3.svg.arc()
-          .outerRadius(radius - 10)
-          .innerRadius(radius - 70);
-
-      var pie = d3.layout.pie()
-          .sort(null)
-          .value(function(d) { return d.population; });
-
-      var svg = d3.select(".marker-title").append("svg")
-          .attr("width", width)
-          .attr("height", height)
-        .append("g")
-          .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
-
-      d3.csv("../static/data/pie_data.csv", function(error, data) {
-
-        data.forEach(function(d) {
-          d.population = +d.population;
-        });
-
-        var g = svg.selectAll(".arc")
-            .data(pie(data))
-          .enter().append("g")
-            .attr("class", "arc");
-
-        g.append("path")
-            .attr("d", arc)
-            .style("fill", function(d) { return color(d.data.age); });
-
-        g.append("text")
-            .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
-            .attr("dy", ".35em")
-            .style("text-anchor", "middle")
-            .text(function(d) { return d.data.age; });
-
-      });
-  }
-
-  function mouseout(e) {
-      statesLayer.resetStyle(e.target);
-      closeTooltip = window.setTimeout(function() {
-          map.closePopup();
-      }, 10);
-  }
-
-  function mouseclick(e) {
-      var layer = e.target;
-      window.location.href = '/detailed/' + layer.feature.properties.name;
-  }
-
-  // function zoomToFeature(e) {
-  //     map.fitBounds(e.target.getBounds());
-  // }
-
-  map.legendControl.addLegend(getLegendHTML());
-
-  function getLegendHTML() {
-    var grades = [0, 10, 20, 50, 100, 200, 500, 1000],
-    labels = [],
-    from, to;
-
-    for (var i = 0; i < grades.length; i++) {
-      from = grades[i];
-      to = grades[i + 1];
-
-      labels.push(
-        '<li><span class="swatch" style="background:' + getColor(from + 1) + '"></span> ' +
-        from + (to ? '&ndash;' + to : '+')) + '</li>';
-    }
-
-    return '<span>Self-sufficiency Index</span><ul>' + labels.join('') + '</ul>';
-  }
-</script>
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+<br />
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+    </div>
 </body>
 </html>
