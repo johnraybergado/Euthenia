@@ -5,7 +5,7 @@
  */
 
 function fetchData() {
-    d3.csv("us.csv", function(csv) {
+    d3.csv("netherlands.csv", function(csv) {
         VisDock.startChrome();
         var normalized=[];
 

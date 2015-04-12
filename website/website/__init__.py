@@ -9,14 +9,14 @@ def index():
 def world():
     return render_template('world.html')
 
+@app.route('/world/netherlands')
+def netherlands():
+	return render_template('netherlands.html')
+
 @app.route('/detailed/')
 @app.route('/detailed/<country>')
 def detailed(country=None):
 	return render_template('detailed.html', country=country)
-
-@app.route('/us')
-def us():
-	return render_template('us.html')
 
 if __name__ == '__main__':
 	app.debug = True

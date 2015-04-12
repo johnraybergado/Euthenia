@@ -1,0 +1,2533 @@
+id,PartnerCountries,Year,Export,Import
+  1,Armenia,2000,    1528,      8
+  1,Armenia,2001,    1184,      5
+  1,Armenia,2002,    1290,      0
+  1,Armenia,2003,    2606,      8
+  1,Armenia,2004,    3983,     12
+  1,Armenia,2005,    5411,      0
+  1,Armenia,2006,    4548,     35
+  1,Armenia,2007,    7237,     39
+  1,Armenia,2008,   10874,     55
+  1,Armenia,2009,    6246,     69
+  1,Armenia,2010,    7599,      0
+  1,Armenia,2011,   15126,      2
+  2,Afghanistan,2000,     660,     18
+  2,Afghanistan,2001,    1430,      7
+  2,Afghanistan,2002,    1862,     17
+  2,Afghanistan,2003,    3345,0
+  2,Afghanistan,2004,    5657,    147
+  2,Afghanistan,2005,    6472,     13
+  2,Afghanistan,2006,   14730,     89
+  2,Afghanistan,2007,   14193,      2
+  2,Afghanistan,2008,   24851,    301
+  2,Afghanistan,2009,   31390,    110
+  2,Afghanistan,2010,   40672,   1054
+  2,Afghanistan,2011,   44316,   2024
+  3,Albania,2000,    6092,   2124
+  3,Albania,2001,    5654,   1452
+  3,Albania,2002,    3020,   1871
+  3,Albania,2003,    3003,    197
+  3,Albania,2004,    5901,    809
+  3,Albania,2005,    7526,    224
+  3,Albania,2006,    5958,0
+  3,Albania,2007,    6597,     63
+  3,Albania,2008,    8210,     53
+  3,Albania,2009,    9876,      7
+  3,Albania,2010,    8715,      1
+  3,Albania,2011,    9378,     93
+  4,Algeria,2000,   55354,    213
+  4,Algeria,2001,   61272,      9
+  4,Algeria,2002,  103920,   1385
+  4,Algeria,2003,   87434,   3359
+  4,Algeria,2004,  150380,   6584
+  4,Algeria,2005,  108135,   5567
+  4,Algeria,2006,  133351,   3736
+  4,Algeria,2007,  192490,    567
+  4,Algeria,2008,  212982,   3400
+  4,Algeria,2009,  184093,   1043
+  4,Algeria,2010,  188982,    692
+  4,Algeria,2011,  246369,  14389
+  5,American Samoa,2000,0,0
+  5,American Samoa,2001,      11,      1
+  5,American Samoa,2002,      10,      8
+  5,American Samoa,2003,0,0
+  5,American Samoa,2004,      58,0
+  5,American Samoa,2005,      10,0
+  5,American Samoa,2006,       0,0
+  5,American Samoa,2007,0,0
+  5,American Samoa,2008,0,0
+  5,American Samoa,2009,0,0
+  5,American Samoa,2010,       9,0
+  5,American Samoa,2011,0,0
+  7,Angola,2000,   41222,0
+  7,Angola,2001,   47870,0
+  7,Angola,2002,   47691,      1
+  7,Angola,2003,   59198,      2
+  7,Angola,2004,   80908,     49
+  7,Angola,2005,   55993,      0
+  7,Angola,2006,  105965,      2
+  7,Angola,2007,   85709,      1
+  7,Angola,2008,  122637,      0
+  7,Angola,2009,  115077,      1
+  7,Angola,2010,  112106,      1
+  7,Angola,2011,  153431,      1
+  8,Antigua and Barbuda,2000,     927,0
+  8,Antigua and Barbuda,2001,    1139,      4
+  8,Antigua and Barbuda,2002,    1190,0
+  8,Antigua and Barbuda,2003,    1411,     19
+  8,Antigua and Barbuda,2004,    1665,      9
+  8,Antigua and Barbuda,2005,    1500,    111
+  8,Antigua and Barbuda,2006,    2076,    197
+  8,Antigua and Barbuda,2007,    2215,    956
+  8,Antigua and Barbuda,2008,    2635,    258
+  8,Antigua and Barbuda,2009,    2058,0
+  8,Antigua and Barbuda,2010,    2067,     27
+  8,Antigua and Barbuda,2011,    2431,    118
+  9,Argentina,2000,   14878, 477518
+  9,Argentina,2001,    9161, 552941
+  9,Argentina,2002,    9348, 848296
+  9,Argentina,2003,    5337, 965826
+  9,Argentina,2004,    8869,1075801
+  9,Argentina,2005,   11912,1189307
+  9,Argentina,2006,   16905,1207641
+  9,Argentina,2007,   19438,1495161
+  9,Argentina,2008,   24436,2280654
+  9,Argentina,2009,   19556,1833902
+  9,Argentina,2010,   31375,1929894
+  9,Argentina,2011,   28911,2080210
+ 10,Australia,2000,   67566,  95258
+ 10,Australia,2001,   67247, 121955
+ 10,Australia,2002,   82456, 108281
+ 10,Australia,2003,   96038,  95393
+ 10,Australia,2004,  114830, 140477
+ 10,Australia,2005,  174813, 141555
+ 10,Australia,2006,  193426, 115569
+ 10,Australia,2007,  191341, 145466
+ 10,Australia,2008,  183925, 244496
+ 10,Australia,2009,  178347, 312448
+ 10,Australia,2010,  186702, 166893
+ 10,Australia,2011,  353102, 529690
+ 11,Austria,2000,  302001,  36297
+ 11,Austria,2001,  301303,  49455
+ 11,Austria,2002,  367847,  94410
+ 11,Austria,2003,  510731, 128735
+ 11,Austria,2004,  560641, 131315
+ 11,Austria,2005,  626513, 143432
+ 11,Austria,2006,  650313, 170190
+ 11,Austria,2007,  859037, 250289
+ 11,Austria,2008, 1015023, 332896
+ 11,Austria,2009, 1022352, 310343
+ 11,Austria,2010, 1128063, 267079
+ 11,Austria,2011, 1202593, 306127
+ 12,Bahamas,2000,    2006,      3
+ 12,Bahamas,2001,    1830,      9
+ 12,Bahamas,2002,    1827,      3
+ 12,Bahamas,2003,    2010,     24
+ 12,Bahamas,2004,    2384,     13
+ 12,Bahamas,2005,    2203,      4
+ 12,Bahamas,2006,    3471,      8
+ 12,Bahamas,2007,    2673,      8
+ 12,Bahamas,2008,    1284,     93
+ 12,Bahamas,2009,    1572,    309
+ 12,Bahamas,2010,    1655,      4
+ 12,Bahamas,2011,    1265,      2
+ 13,Bahrain,2000,   18177,     28
+ 13,Bahrain,2001,   18690,      7
+ 13,Bahrain,2002,   19459,      2
+ 13,Bahrain,2003,   18679,0
+ 13,Bahrain,2004,   24167,     29
+ 13,Bahrain,2005,   25993,    470
+ 13,Bahrain,2006,   31748,    196
+ 13,Bahrain,2007,   31882,0
+ 13,Bahrain,2008,   34515,      0
+ 13,Bahrain,2009,   30919,      0
+ 13,Bahrain,2010,   32735,      0
+ 13,Bahrain,2011,   37324,    106
+ 14,Barbados,2000,    3115,   1210
+ 14,Barbados,2001,    2383,    964
+ 14,Barbados,2002,    3576,    391
+ 14,Barbados,2003,    4903,    576
+ 14,Barbados,2004,    4222,    911
+ 14,Barbados,2005,    4871,    904
+ 14,Barbados,2006,    4903,   1382
+ 14,Barbados,2007,    5651,   1779
+ 14,Barbados,2008,    7431,   1654
+ 14,Barbados,2009,    7782,   1673
+ 14,Barbados,2010,    8340,   1922
+ 14,Barbados,2011,   11384,   2194
+ 16,Bangladesh,2000,    8148,     86
+ 16,Bangladesh,2001,    7764,    376
+ 16,Bangladesh,2002,   10885,    322
+ 16,Bangladesh,2003,    5271,    470
+ 16,Bangladesh,2004,    8277,    743
+ 16,Bangladesh,2005,    8854,   3328
+ 16,Bangladesh,2006,   12855,   2873
+ 16,Bangladesh,2007,   12185,   3737
+ 16,Bangladesh,2008,   16629,   3459
+ 16,Bangladesh,2009,   26025,   4997
+ 16,Bangladesh,2010,   39093,  12925
+ 16,Bangladesh,2011,   36286,  15638
+ 17,Bermuda,2000,    2361,     11
+ 17,Bermuda,2001,    2266,0
+ 17,Bermuda,2002,    2733,0
+ 17,Bermuda,2003,    3382,     60
+ 17,Bermuda,2004,    4084,0
+ 17,Bermuda,2005,    3835,     43
+ 17,Bermuda,2006,    4633,0
+ 17,Bermuda,2007,    5183,      7
+ 17,Bermuda,2008,    4572,     43
+ 17,Bermuda,2009,    3729,     18
+ 17,Bermuda,2010,    3834,0
+ 17,Bermuda,2011,    3846,      2
+ 18,Bhutan,2000,0,0
+ 18,Bhutan,2001,0,0
+ 18,Bhutan,2002,0,0
+ 18,Bhutan,2003,      53,0
+ 18,Bhutan,2004,0,0
+ 18,Bhutan,2005,       1,0
+ 18,Bhutan,2006,0,0
+ 18,Bhutan,2007,0,0
+ 18,Bhutan,2008,       6,0
+ 18,Bhutan,2009,0,      5
+ 18,Bhutan,2010,      11,0
+ 18,Bhutan,2011,       0,0
+ 19,Bolivia (Plurinational State of),2000,    3629,   2600
+ 19,Bolivia (Plurinational State of),2001,    1998,   4589
+ 19,Bolivia (Plurinational State of),2002,    1604,   4534
+ 19,Bolivia (Plurinational State of),2003,    1748,   6548
+ 19,Bolivia (Plurinational State of),2004,    1048,   7196
+ 19,Bolivia (Plurinational State of),2005,    1068,  10534
+ 19,Bolivia (Plurinational State of),2006,    1211,   8751
+ 19,Bolivia (Plurinational State of),2007,    1069,  14745
+ 19,Bolivia (Plurinational State of),2008,    1771,  25248
+ 19,Bolivia (Plurinational State of),2009,    1276,   6448
+ 19,Bolivia (Plurinational State of),2010,    2796,  20303
+ 19,Bolivia (Plurinational State of),2011,    3251,  18010
+ 20,Botswana,2000,     205,      1
+ 20,Botswana,2001,       1,0
+ 20,Botswana,2002,0,0
+ 20,Botswana,2003,0,0
+ 20,Botswana,2004,       1,      0
+ 20,Botswana,2005,     158,0
+ 20,Botswana,2006,0,      6
+ 20,Botswana,2007,       0,    109
+ 20,Botswana,2008,      51,    196
+ 20,Botswana,2009,      38,      1
+ 20,Botswana,2010,0,   1219
+ 20,Botswana,2011,0,0
+ 21,Brazil,2000,   55333,1411647
+ 21,Brazil,2001,   49268,1701617
+ 21,Brazil,2002,   67429,1854348
+ 21,Brazil,2003,   47547,2340539
+ 21,Brazil,2004,   52234,2969636
+ 21,Brazil,2005,   55866,2968548
+ 21,Brazil,2006,   63007,2810785
+ 21,Brazil,2007,   95247,3523266
+ 21,Brazil,2008,  113643,4436305
+ 21,Brazil,2009,  108149,4019468
+ 21,Brazil,2010,  167495,4072947
+ 21,Brazil,2011,  180243,4729944
+ 22,Aruba,2000,   20822,  36333
+ 22,Aruba,2001,   23358,  29161
+ 22,Aruba,2002,   24625,  24431
+ 22,Aruba,2003,   28184,  35917
+ 22,Aruba,2004,   31421,   9858
+ 22,Aruba,2005,   34043,  58287
+ 22,Aruba,2006,   36220,  46467
+ 22,Aruba,2007,   27400,   1459
+ 22,Aruba,2008,   31845,    113
+ 22,Aruba,2009,   31087,    674
+ 22,Aruba,2010,   28209,    110
+ 22,Aruba,2011,   31735,      4
+ 23,Belize,2000,    4034,  10324
+ 23,Belize,2001,    4125,   9947
+ 23,Belize,2002,    3952,   5668
+ 23,Belize,2003,    4510,   8745
+ 23,Belize,2004,    5046,   5419
+ 23,Belize,2005,    5138,   3572
+ 23,Belize,2006,    4211,  12458
+ 23,Belize,2007,    5169,  14730
+ 23,Belize,2008,    5027,   7291
+ 23,Belize,2009,    4266,   5679
+ 23,Belize,2010,    4998,  10692
+ 23,Belize,2011,    5140,   8508
+ 25,Solomon Islands,2000,0,    472
+ 25,Solomon Islands,2001,0,0
+ 25,Solomon Islands,2002,       5,0
+ 25,Solomon Islands,2003,0,0
+ 25,Solomon Islands,2004,      33,   1990
+ 25,Solomon Islands,2005,0,0
+ 25,Solomon Islands,2006,0,0
+ 25,Solomon Islands,2007,      36,0
+ 25,Solomon Islands,2008,0,0
+ 25,Solomon Islands,2009,       8,0
+ 25,Solomon Islands,2010,0,   2219
+ 25,Solomon Islands,2011,      36,   8672
+ 26,Brunei Darussalam,2000,    1227,0
+ 26,Brunei Darussalam,2001,    1319,0
+ 26,Brunei Darussalam,2002,    1295,0
+ 26,Brunei Darussalam,2003,    1427,     17
+ 26,Brunei Darussalam,2004,    1933,      1
+ 26,Brunei Darussalam,2005,     661,0
+ 26,Brunei Darussalam,2006,     939,0
+ 26,Brunei Darussalam,2007,     801,      0
+ 26,Brunei Darussalam,2008,    1107,      0
+ 26,Brunei Darussalam,2009,    1572,0
+ 26,Brunei Darussalam,2010,    2318,      0
+ 26,Brunei Darussalam,2011,    2557,      1
+ 27,Bulgaria,2000,   18160,   9440
+ 27,Bulgaria,2001,   15875,   7411
+ 27,Bulgaria,2002,   19427,  18667
+ 27,Bulgaria,2003,   21812,  10065
+ 27,Bulgaria,2004,   97033,  11166
+ 27,Bulgaria,2005,   56355,   9008
+ 27,Bulgaria,2006,   65559,  32140
+ 27,Bulgaria,2007,   76131,  14692
+ 27,Bulgaria,2008,  124052,  36354
+ 27,Bulgaria,2009,  128731, 101070
+ 27,Bulgaria,2010,  124887,  69952
+ 27,Bulgaria,2011,  127977, 212766
+ 28,Myanmar,2000,    1061,   1702
+ 28,Myanmar,2001,    1649,   2148
+ 28,Myanmar,2002,    1503,   2277
+ 28,Myanmar,2003,     677,    740
+ 28,Myanmar,2004,     909,    515
+ 28,Myanmar,2005,     595,    983
+ 28,Myanmar,2006,      35,    822
+ 28,Myanmar,2007,      28,    991
+ 28,Myanmar,2008,     436,    844
+ 28,Myanmar,2009,     171,    732
+ 28,Myanmar,2010,      81,   3282
+ 28,Myanmar,2011,    1691,   2326
+ 29,Burundi,2000,     619,   7176
+ 29,Burundi,2001,     442,   1988
+ 29,Burundi,2002,     320,   1870
+ 29,Burundi,2003,     301,   4065
+ 29,Burundi,2004,    1578,   1413
+ 29,Burundi,2005,     757,   8112
+ 29,Burundi,2006,     817,    904
+ 29,Burundi,2007,     282,   3131
+ 29,Burundi,2008,     305,    344
+ 29,Burundi,2009,     348,    151
+ 29,Burundi,2010,     110,      3
+ 29,Burundi,2011,     133,   1995
+ 32,Cameroon,2000,   18220,  63533
+ 32,Cameroon,2001,   15646, 114403
+ 32,Cameroon,2002,   21000, 121202
+ 32,Cameroon,2003,   25629, 208833
+ 32,Cameroon,2004,   36153, 126392
+ 32,Cameroon,2005,   21941, 180928
+ 32,Cameroon,2006,   25200, 182448
+ 32,Cameroon,2007,   20707, 209116
+ 32,Cameroon,2008,   28557, 294629
+ 32,Cameroon,2009,   27649, 512163
+ 32,Cameroon,2010,   29607, 494917
+ 32,Cameroon,2011,   34409, 406850
+ 33,Canada,2000,  124085,  64923
+ 33,Canada,2001,  125254,  64315
+ 33,Canada,2002,  153086,  65629
+ 33,Canada,2003,  164848,  93676
+ 33,Canada,2004,  202274,  63874
+ 33,Canada,2005,  214222,  75261
+ 33,Canada,2006,  226457, 133900
+ 33,Canada,2007,  254956, 194685
+ 33,Canada,2008,  274257, 188680
+ 33,Canada,2009,  242460, 155016
+ 33,Canada,2010,  241409, 212020
+ 33,Canada,2011,  244973, 390365
+ 35,Cabo Verde,2000,    7329,     18
+ 35,Cabo Verde,2001,    9369,      5
+ 35,Cabo Verde,2002,    9466,     12
+ 35,Cabo Verde,2003,   12495,     24
+ 35,Cabo Verde,2004,   13457,     11
+ 35,Cabo Verde,2005,   12026,     65
+ 35,Cabo Verde,2006,   14190,    118
+ 35,Cabo Verde,2007,   16431,     36
+ 35,Cabo Verde,2008,   18894,    152
+ 35,Cabo Verde,2009,   14512,    161
+ 35,Cabo Verde,2010,   13679,     57
+ 35,Cabo Verde,2011,   18278,    121
+ 36,Cayman Islands,2000,    1599,0
+ 36,Cayman Islands,2001,    1970,0
+ 36,Cayman Islands,2002,    2141,      2
+ 36,Cayman Islands,2003,    2620,0
+ 36,Cayman Islands,2004,    2722,0
+ 36,Cayman Islands,2005,    2651,      0
+ 36,Cayman Islands,2006,    2760,      0
+ 36,Cayman Islands,2007,    2696,0
+ 36,Cayman Islands,2008,    2783,     41
+ 36,Cayman Islands,2009,    2611,      0
+ 36,Cayman Islands,2010,    2239,      0
+ 36,Cayman Islands,2011,    2142,      0
+ 37,Central African Republic,2000,     645,      5
+ 37,Central African Republic,2001,     700,0
+ 37,Central African Republic,2002,     917,0
+ 37,Central African Republic,2003,     810,0
+ 37,Central African Republic,2004,    1072,     66
+ 37,Central African Republic,2005,     457,     69
+ 37,Central African Republic,2006,     437,0
+ 37,Central African Republic,2007,     212,     94
+ 37,Central African Republic,2008,     438,0
+ 37,Central African Republic,2009,     976,0
+ 37,Central African Republic,2010,     617,     29
+ 37,Central African Republic,2011,    1319,0
+ 38,Sri Lanka,2000,   18140,  16766
+ 38,Sri Lanka,2001,   13881,  16117
+ 38,Sri Lanka,2002,   10554,  14852
+ 38,Sri Lanka,2003,   12731,  17368
+ 38,Sri Lanka,2004,   21430,  19598
+ 38,Sri Lanka,2005,   21535,  19421
+ 38,Sri Lanka,2006,   20513,  22518
+ 38,Sri Lanka,2007,   16434,  28237
+ 38,Sri Lanka,2008,    8992,  33236
+ 38,Sri Lanka,2009,    6420,  29963
+ 38,Sri Lanka,2010,    8939,  33716
+ 38,Sri Lanka,2011,    9644,  41078
+ 39,Chad,2000,     749,0
+ 39,Chad,2001,     782,0
+ 39,Chad,2002,     858,      1
+ 39,Chad,2003,    6549,      5
+ 39,Chad,2004,    3439,      2
+ 39,Chad,2005,    3572,      0
+ 39,Chad,2006,    4716,0
+ 39,Chad,2007,    5476,0
+ 39,Chad,2008,   13075,0
+ 39,Chad,2009,    7554,0
+ 39,Chad,2010,    9092,0
+ 39,Chad,2011,    8564,0
+ 40,Chile,2000,   17467, 155684
+ 40,Chile,2001,   19589, 192018
+ 40,Chile,2002,   14486, 190499
+ 40,Chile,2003,   18121, 266986
+ 40,Chile,2004,   21420, 287777
+ 40,Chile,2005,   20253, 301754
+ 40,Chile,2006,   24132, 450514
+ 40,Chile,2007,   34314, 568510
+ 40,Chile,2008,   33991, 745928
+ 40,Chile,2009,   32549, 801400
+ 40,Chile,2010,   44671, 613517
+ 40,Chile,2011,   51702, 788888
+ 41,"China, mainland",2000,  119973, 244094
+ 41,"China, mainland",2001,   75363, 212410
+ 41,"China, mainland",2002,   95756, 239958
+ 41,"China, mainland",2003,   96390, 302520
+ 41,"China, mainland",2004,  183206, 332956
+ 41,"China, mainland",2005,  201456, 416390
+ 41,"China, mainland",2006,  230673, 524982
+ 41,"China, mainland",2007,  250134, 708714
+ 41,"China, mainland",2008,  360406, 808403
+ 41,"China, mainland",2009,  592126, 776477
+ 41,"China, mainland",2010,  666702, 840516
+ 41,"China, mainland",2011,  849789, 948974
+ 44,Colombia,2000,   27676,  52002
+ 44,Colombia,2001,   22392,  52340
+ 44,Colombia,2002,   23236,  52938
+ 44,Colombia,2003,   25132,  64706
+ 44,Colombia,2004,   24891,  73320
+ 44,Colombia,2005,   34844,  99038
+ 44,Colombia,2006,   38598, 171887
+ 44,Colombia,2007,   35933, 150059
+ 44,Colombia,2008,   36973, 142569
+ 44,Colombia,2009,   18866, 115488
+ 44,Colombia,2010,   30531, 108103
+ 44,Colombia,2011,   38452, 203793
+ 45,Comoros,2000,    1207,   1618
+ 45,Comoros,2001,    1600,   1721
+ 45,Comoros,2002,    1852,   2036
+ 45,Comoros,2003,    1357,    801
+ 45,Comoros,2004,    1829,    752
+ 45,Comoros,2005,    1300,   1314
+ 45,Comoros,2006,    1485,    761
+ 45,Comoros,2007,    1165,    579
+ 45,Comoros,2008,    1651,    832
+ 45,Comoros,2009,    1470,    952
+ 45,Comoros,2010,    2545,   1536
+ 45,Comoros,2011,    4101,   4591
+ 46,Congo,2000,   20878,    778
+ 46,Congo,2001,   22048,    704
+ 46,Congo,2002,   18366,   2021
+ 46,Congo,2003,   15200,   2585
+ 46,Congo,2004,   19610,    592
+ 46,Congo,2005,   17642,   2983
+ 46,Congo,2006,   24163,   1549
+ 46,Congo,2007,   16068,   3085
+ 46,Congo,2008,   30086,   1523
+ 46,Congo,2009,   24568,   1379
+ 46,Congo,2010,   25757,      7
+ 46,Congo,2011,   30509,    561
+ 47,Cook Islands,2000,0,0
+ 47,Cook Islands,2001,0,0
+ 47,Cook Islands,2002,0,0
+ 47,Cook Islands,2003,0,0
+ 47,Cook Islands,2004,0,     71
+ 47,Cook Islands,2005,0,0
+ 47,Cook Islands,2006,0,0
+ 47,Cook Islands,2007,0,0
+ 47,Cook Islands,2008,     110,0
+ 47,Cook Islands,2009,      26,0
+ 47,Cook Islands,2010,0,0
+ 47,Cook Islands,2011,      60,0
+ 48,Costa Rica,2000,   12524, 113696
+ 48,Costa Rica,2001,   14442, 117005
+ 48,Costa Rica,2002,   14655, 125911
+ 48,Costa Rica,2003,   15102, 162925
+ 48,Costa Rica,2004,   15917, 175584
+ 48,Costa Rica,2005,   17871, 201885
+ 48,Costa Rica,2006,   23749, 341129
+ 48,Costa Rica,2007,   16930, 329653
+ 48,Costa Rica,2008,   17686, 382743
+ 48,Costa Rica,2009,   12160, 368395
+ 48,Costa Rica,2010,   14664, 391406
+ 48,Costa Rica,2011,   20976, 408318
+ 49,Cuba,2000,   36631,  38760
+ 49,Cuba,2001,   21373,  49534
+ 49,Cuba,2002,   22292,  32341
+ 49,Cuba,2003,   13020,  46455
+ 49,Cuba,2004,   15516,  54616
+ 49,Cuba,2005,   12338,  45928
+ 49,Cuba,2006,   14240,  35727
+ 49,Cuba,2007,   12418,  34814
+ 49,Cuba,2008,   16439,  29708
+ 49,Cuba,2009,   10187,  28896
+ 49,Cuba,2010,   12162,  33282
+ 49,Cuba,2011,   12688,  30371
+ 50,Cyprus,2000,   28692,   1932
+ 50,Cyprus,2001,   25824,   1103
+ 50,Cyprus,2002,   28948,   2167
+ 50,Cyprus,2003,   36705,   2312
+ 50,Cyprus,2004,   66590,    547
+ 50,Cyprus,2005,   77197,   5852
+ 50,Cyprus,2006,   79789,   7782
+ 50,Cyprus,2007,   99595,   8788
+ 50,Cyprus,2008,  123175,  10933
+ 50,Cyprus,2009,  113928,  12645
+ 50,Cyprus,2010,  146425,  13181
+ 50,Cyprus,2011,  193434,  17388
+ 52,Azerbaijan,2000,     815,   1812
+ 52,Azerbaijan,2001,    1108,    482
+ 52,Azerbaijan,2002,    1698,    170
+ 52,Azerbaijan,2003,    2361,    252
+ 52,Azerbaijan,2004,    3322,    391
+ 52,Azerbaijan,2005,    3115,   1136
+ 52,Azerbaijan,2006,    5261,    124
+ 52,Azerbaijan,2007,    5114,    373
+ 52,Azerbaijan,2008,   10832,0
+ 52,Azerbaijan,2009,    6782,0
+ 52,Azerbaijan,2010,   10794,0
+ 52,Azerbaijan,2011,   18372,    170
+ 53,Benin,2000,   25985,     26
+ 53,Benin,2001,   25275,    340
+ 53,Benin,2002,   22427,     13
+ 53,Benin,2003,   20080,     39
+ 53,Benin,2004,   13952,     43
+ 53,Benin,2005,   14670,     56
+ 53,Benin,2006,   13379,    110
+ 53,Benin,2007,   21367,    154
+ 53,Benin,2008,   39732,    363
+ 53,Benin,2009,   31901,    566
+ 53,Benin,2010,   41099,    368
+ 53,Benin,2011,   69213,   1267
+ 54,Denmark,2000,  376504, 106771
+ 54,Denmark,2001,  340040, 116912
+ 54,Denmark,2002,  445844, 143552
+ 54,Denmark,2003,  636019, 213367
+ 54,Denmark,2004,  769422, 239382
+ 54,Denmark,2005,  822861, 255154
+ 54,Denmark,2006,  916638, 291595
+ 54,Denmark,2007, 1131597, 308168
+ 54,Denmark,2008, 1355238, 383890
+ 54,Denmark,2009, 1278090, 388816
+ 54,Denmark,2010, 1370865, 375872
+ 54,Denmark,2011, 1645280, 428667
+ 55,Dominica,2000,    1270,0
+ 55,Dominica,2001,    1217,    122
+ 55,Dominica,2002,    1633,     78
+ 55,Dominica,2003,    1643,      3
+ 55,Dominica,2004,    1607,      3
+ 55,Dominica,2005,    1724,      8
+ 55,Dominica,2006,    1813,     84
+ 55,Dominica,2007,    2010,      7
+ 55,Dominica,2008,    2176,     90
+ 55,Dominica,2009,    1628,     38
+ 55,Dominica,2010,    2036,    386
+ 55,Dominica,2011,    2271,    490
+ 56,Dominican Republic,2000,   27668,   9622
+ 56,Dominican Republic,2001,   25667,   8910
+ 56,Dominican Republic,2002,   28793,  14758
+ 56,Dominican Republic,2003,   30514,  22480
+ 56,Dominican Republic,2004,   18972,  28874
+ 56,Dominican Republic,2005,   29857,  19912
+ 56,Dominican Republic,2006,   44544,  20742
+ 56,Dominican Republic,2007,   45794,  32174
+ 56,Dominican Republic,2008,   45947,  46267
+ 56,Dominican Republic,2009,   30923,  54256
+ 56,Dominican Republic,2010,   43484,  85369
+ 56,Dominican Republic,2011,   40841,  62486
+ 57,Belarus,2000,   10983,    653
+ 57,Belarus,2001,   18254,   3537
+ 57,Belarus,2002,   20272,   1645
+ 57,Belarus,2003,   21055,   1657
+ 57,Belarus,2004,   41470,   1080
+ 57,Belarus,2005,   40629,   1453
+ 57,Belarus,2006,   48604,   1799
+ 57,Belarus,2007,   62749,   2722
+ 57,Belarus,2008,  133399,    641
+ 57,Belarus,2009,   70146,   3881
+ 57,Belarus,2010,   73662,   2171
+ 57,Belarus,2011,   80298,   4285
+ 58,Ecuador,2000,    9142,  63830
+ 58,Ecuador,2001,   10547,  72725
+ 58,Ecuador,2002,   12525,  76500
+ 58,Ecuador,2003,   14003,  99877
+ 58,Ecuador,2004,   13270, 120832
+ 58,Ecuador,2005,   18715, 156092
+ 58,Ecuador,2006,   22134, 187862
+ 58,Ecuador,2007,   16449, 241771
+ 58,Ecuador,2008,   19701, 266680
+ 58,Ecuador,2009,   17125, 287311
+ 58,Ecuador,2010,   12846, 311851
+ 58,Ecuador,2011,   19965, 344119
+ 59,Egypt,2000,   91156,  18691
+ 59,Egypt,2001,   57847,  24131
+ 59,Egypt,2002,   57451,  23755
+ 59,Egypt,2003,   66034,  28179
+ 59,Egypt,2004,   76466,  46539
+ 59,Egypt,2005,   79500,  63099
+ 59,Egypt,2006,   89899,  69460
+ 59,Egypt,2007,  105482, 103275
+ 59,Egypt,2008,  166696,  93659
+ 59,Egypt,2009,  179667, 129787
+ 59,Egypt,2010,  226914, 111864
+ 59,Egypt,2011,  177932, 130846
+ 60,El Salvador,2000,    7473,   1324
+ 60,El Salvador,2001,    6326,   3118
+ 60,El Salvador,2002,    7491,   2567
+ 60,El Salvador,2003,    8444,   3887
+ 60,El Salvador,2004,    8760,   4256
+ 60,El Salvador,2005,   12330,   5087
+ 60,El Salvador,2006,   17522,   4797
+ 60,El Salvador,2007,    6581,   4145
+ 60,El Salvador,2008,    6581,   3969
+ 60,El Salvador,2009,    7704,   6388
+ 60,El Salvador,2010,    9750,   4410
+ 60,El Salvador,2011,   13718,   5950
+ 61,Equatorial Guinea,2000,    3480,   1822
+ 61,Equatorial Guinea,2001,    5874,   1200
+ 61,Equatorial Guinea,2002,    5907,     18
+ 61,Equatorial Guinea,2003,    7528,      5
+ 61,Equatorial Guinea,2004,   10060,      1
+ 61,Equatorial Guinea,2005,    9057,      1
+ 61,Equatorial Guinea,2006,   14323,0
+ 61,Equatorial Guinea,2007,   17266,      0
+ 61,Equatorial Guinea,2008,   17712,0
+ 61,Equatorial Guinea,2009,   20480,0
+ 61,Equatorial Guinea,2010,   20007,0
+ 61,Equatorial Guinea,2011,   28701,0
+ 63,Estonia,2000,   25642,  17577
+ 63,Estonia,2001,   26860,  24679
+ 63,Estonia,2002,   28408,  20372
+ 63,Estonia,2003,   37758,  22846
+ 63,Estonia,2004,   43716,  36552
+ 63,Estonia,2005,   36811,  11271
+ 63,Estonia,2006,   41457,   9680
+ 63,Estonia,2007,   59995,  11458
+ 63,Estonia,2008,   80206,  20136
+ 63,Estonia,2009,   74149,  17293
+ 63,Estonia,2010,   87424,  16963
+ 63,Estonia,2011,   92925,  14864
+ 64,Faroe Islands,2000,     508,     81
+ 64,Faroe Islands,2001,     387,0
+ 64,Faroe Islands,2002,     450,    143
+ 64,Faroe Islands,2003,     773,      1
+ 64,Faroe Islands,2004,    1312,0
+ 64,Faroe Islands,2005,     868,    337
+ 64,Faroe Islands,2006,    1044,    200
+ 64,Faroe Islands,2007,    2229,     21
+ 64,Faroe Islands,2008,    1332,0
+ 64,Faroe Islands,2009,    1024,0
+ 64,Faroe Islands,2010,    1472,     14
+ 64,Faroe Islands,2011,    3081,     26
+ 65,Falkland Islands (Malvinas),2000,       1,     27
+ 65,Falkland Islands (Malvinas),2001,0,      1
+ 65,Falkland Islands (Malvinas),2002,0,0
+ 65,Falkland Islands (Malvinas),2003,      20,0
+ 65,Falkland Islands (Malvinas),2004,0,0
+ 65,Falkland Islands (Malvinas),2005,      33,0
+ 65,Falkland Islands (Malvinas),2006,0,0
+ 65,Falkland Islands (Malvinas),2007,0,0
+ 65,Falkland Islands (Malvinas),2008,0,0
+ 65,Falkland Islands (Malvinas),2009,0,0
+ 65,Falkland Islands (Malvinas),2010,0,     96
+ 65,Falkland Islands (Malvinas),2011,0,0
+ 66,Fiji,2000,     656,    115
+ 66,Fiji,2001,     738,     63
+ 66,Fiji,2002,    1617,   3422
+ 66,Fiji,2003,    2496,   1013
+ 66,Fiji,2004,    2695,   1019
+ 66,Fiji,2005,    2587,   1424
+ 66,Fiji,2006,    3743,    691
+ 66,Fiji,2007,    3364,    901
+ 66,Fiji,2008,    3985,   1196
+ 66,Fiji,2009,    1622,   2037
+ 66,Fiji,2010,     740,   2608
+ 66,Fiji,2011,    1156,   1707
+ 67,Finland,2000,  138513,  14768
+ 67,Finland,2001,  139135,  10813
+ 67,Finland,2002,  184742,  17613
+ 67,Finland,2003,  257176,  19754
+ 67,Finland,2004,  294560,  23966
+ 67,Finland,2005,  310575,  23860
+ 67,Finland,2006,  322781,  28151
+ 67,Finland,2007,  479144,  36838
+ 67,Finland,2008,  655896,  24903
+ 67,Finland,2009,  589496,  22107
+ 67,Finland,2010,  617118,  27291
+ 67,Finland,2011,  780286,  46147
+ 68,France,2000, 3155653,1114504
+ 68,France,2001, 3142329,1326510
+ 68,France,2002, 3709309,1567144
+ 68,France,2003, 4508482,1976263
+ 68,France,2004, 4768921,2188679
+ 68,France,2005, 5114770,2068707
+ 68,France,2006, 5475927,2475274
+ 68,France,2007, 6703844,3646385
+ 68,France,2008, 7582804,4314500
+ 68,France,2009, 7285710,3600901
+ 68,France,2010, 7408087,3777922
+ 68,France,2011, 8605561,4151281
+ 70,French Polynesia,2000,     793,   1013
+ 70,French Polynesia,2001,    2105,     30
+ 70,French Polynesia,2002,    2308,    414
+ 70,French Polynesia,2003,    3342,    164
+ 70,French Polynesia,2004,    3766,     47
+ 70,French Polynesia,2005,    2795,     83
+ 70,French Polynesia,2006,    1793,     52
+ 70,French Polynesia,2007,    2615,     64
+ 70,French Polynesia,2008,    3911,     45
+ 70,French Polynesia,2009,    4145,    633
+ 70,French Polynesia,2010,    4584,     12
+ 70,French Polynesia,2011,    4040,    245
+ 72,Djibouti,2000,   15168,     35
+ 72,Djibouti,2001,   13073,     41
+ 72,Djibouti,2002,   16167,     51
+ 72,Djibouti,2003,   14104,    221
+ 72,Djibouti,2004,   14453,    299
+ 72,Djibouti,2005,   10292,     91
+ 72,Djibouti,2006,    9428,    100
+ 72,Djibouti,2007,   11275,    235
+ 72,Djibouti,2008,    8887,   5688
+ 72,Djibouti,2009,   10920,   8110
+ 72,Djibouti,2010,   10314,    577
+ 72,Djibouti,2011,   10990,    125
+ 73,Georgia,2000,    3354,    298
+ 73,Georgia,2001,    4136,    270
+ 73,Georgia,2002,    1883,    542
+ 73,Georgia,2003,    3367,    371
+ 73,Georgia,2004,    3159,    976
+ 73,Georgia,2005,    4550,    753
+ 73,Georgia,2006,    8278,    311
+ 73,Georgia,2007,    4971,    447
+ 73,Georgia,2008,    9840,    810
+ 73,Georgia,2009,    9366,   1743
+ 73,Georgia,2010,   10558,   1625
+ 73,Georgia,2011,   13875,   3188
+ 74,Gabon,2000,   18533,    275
+ 74,Gabon,2001,   17511,     91
+ 74,Gabon,2002,   16959,      0
+ 74,Gabon,2003,   20927,0
+ 74,Gabon,2004,   22655,     22
+ 74,Gabon,2005,   24947,    575
+ 74,Gabon,2006,   26653,   5937
+ 74,Gabon,2007,   32361,   4793
+ 74,Gabon,2008,   36598,   2919
+ 74,Gabon,2009,   42617,   1450
+ 74,Gabon,2010,   42747,   2799
+ 74,Gabon,2011,   50078,   1826
+ 75,Gambia,2000,   14248,    279
+ 75,Gambia,2001,   14704,     51
+ 75,Gambia,2002,   13716,     32
+ 75,Gambia,2003,   14960,     83
+ 75,Gambia,2004,   17221,    142
+ 75,Gambia,2005,   17656,     69
+ 75,Gambia,2006,   20977,     35
+ 75,Gambia,2007,   20331,      5
+ 75,Gambia,2008,   20618,     50
+ 75,Gambia,2009,   19148,     60
+ 75,Gambia,2010,   24322,     36
+ 75,Gambia,2011,   29293,      9
+ 76,Gaza Strip (Palestine),2000,    1081,     36
+ 76,Gaza Strip (Palestine),2001,    1249,    655
+ 76,Gaza Strip (Palestine),2002,     744,   4171
+ 76,Gaza Strip (Palestine),2003,     468,   4089
+ 76,Gaza Strip (Palestine),2004,    1893,   4161
+ 76,Gaza Strip (Palestine),2005,0,0
+ 76,Gaza Strip (Palestine),2006,0,0
+ 76,Gaza Strip (Palestine),2007,0,0
+ 76,Gaza Strip (Palestine),2008,0,0
+ 76,Gaza Strip (Palestine),2009,0,0
+ 76,Gaza Strip (Palestine),2010,0,0
+ 76,Gaza Strip (Palestine),2011,0,0
+ 79,Germany,2000, 7053591,2376938
+ 79,Germany,2001, 6982278,2744149
+ 79,Germany,2002, 7943309,3199513
+ 79,Germany,2003,10809952,4426371
+ 79,Germany,2004,12052519,5238672
+ 79,Germany,2005,12699899,5558202
+ 79,Germany,2006,13393810,5950837
+ 79,Germany,2007,16707694,7374450
+ 79,Germany,2008,19667853,8735830
+ 79,Germany,2009,19018859,7642069
+ 79,Germany,2010,19672704,7857510
+ 79,Germany,2011,22533347,9727019
+ 80,Bosnia and Herzegovina,2000,   19872,    806
+ 80,Bosnia and Herzegovina,2001,   14535,    140
+ 80,Bosnia and Herzegovina,2002,   19563,    239
+ 80,Bosnia and Herzegovina,2003,   21049,    285
+ 80,Bosnia and Herzegovina,2004,   31651,    205
+ 80,Bosnia and Herzegovina,2005,   31555,    360
+ 80,Bosnia and Herzegovina,2006,   25551,   1035
+ 80,Bosnia and Herzegovina,2007,   26670,    604
+ 80,Bosnia and Herzegovina,2008,   34270,    682
+ 80,Bosnia and Herzegovina,2009,   35306,   1534
+ 80,Bosnia and Herzegovina,2010,   38888,   1103
+ 80,Bosnia and Herzegovina,2011,   41954,   1532
+ 81,Ghana,2000,   19468, 109628
+ 81,Ghana,2001,   18966,  76901
+ 81,Ghana,2002,   24278, 124510
+ 81,Ghana,2003,   30704, 129493
+ 81,Ghana,2004,   41145, 283935
+ 81,Ghana,2005,   47814, 282581
+ 81,Ghana,2006,   55254, 284820
+ 81,Ghana,2007,   56984, 350406
+ 81,Ghana,2008,   89721, 614247
+ 81,Ghana,2009,   57463, 489773
+ 81,Ghana,2010,   76127, 569886
+ 81,Ghana,2011,  107508, 876141
+ 83,Kiribati,2000,0,0
+ 83,Kiribati,2001,0,0
+ 83,Kiribati,2002,      14,0
+ 83,Kiribati,2003,0,0
+ 83,Kiribati,2004,0,0
+ 83,Kiribati,2005,0,0
+ 83,Kiribati,2006,0,0
+ 83,Kiribati,2007,0,0
+ 83,Kiribati,2008,0,0
+ 83,Kiribati,2009,0,0
+ 83,Kiribati,2010,0,0
+ 83,Kiribati,2011,0,0
+ 84,Greece,2000,  476536,  40792
+ 84,Greece,2001,  486520,  66118
+ 84,Greece,2002,  507868,  89364
+ 84,Greece,2003,  646307, 105986
+ 84,Greece,2004,  745332,  98670
+ 84,Greece,2005,  792542, 112865
+ 84,Greece,2006,  821169,  70825
+ 84,Greece,2007,  972276, 111854
+ 84,Greece,2008, 1141278, 162021
+ 84,Greece,2009, 1080345, 140217
+ 84,Greece,2010, 1090772, 137898
+ 84,Greece,2011, 1095199, 193834
+ 85,Greenland,2000,      17,0
+ 85,Greenland,2001,      48,0
+ 85,Greenland,2002,0,0
+ 85,Greenland,2003,      10,0
+ 85,Greenland,2004,      30,     27
+ 85,Greenland,2005,      29,     42
+ 85,Greenland,2006,      21,0
+ 85,Greenland,2007,      33,0
+ 85,Greenland,2008,      14,0
+ 85,Greenland,2009,      18,     13
+ 85,Greenland,2010,     425,     13
+ 85,Greenland,2011,     289,     27
+ 86,Grenada,2000,    1473,   3743
+ 86,Grenada,2001,    2586,    290
+ 86,Grenada,2002,    2363,   4381
+ 86,Grenada,2003,    2053,   4870
+ 86,Grenada,2004,    2288,   3513
+ 86,Grenada,2005,    1805,   4080
+ 86,Grenada,2006,    1989,   1409
+ 86,Grenada,2007,    2675,   1456
+ 86,Grenada,2008,    2765,   1303
+ 86,Grenada,2009,    2673,    711
+ 86,Grenada,2010,    3126,   1596
+ 86,Grenada,2011,    2960,   2526
+ 88,Guam,2000,0,0
+ 88,Guam,2001,     156,0
+ 88,Guam,2002,     300,      5
+ 88,Guam,2003,     358,0
+ 88,Guam,2004,     385,0
+ 88,Guam,2005,     327,0
+ 88,Guam,2006,     227,    132
+ 88,Guam,2007,     214,     67
+ 88,Guam,2008,     859,      7
+ 88,Guam,2009,     598,     15
+ 88,Guam,2010,     777,     29
+ 88,Guam,2011,    1059,     37
+ 89,Guatemala,2000,    6446,  62015
+ 89,Guatemala,2001,    5596,  45311
+ 89,Guatemala,2002,    5457,  52629
+ 89,Guatemala,2003,    6529,  63494
+ 89,Guatemala,2004,    9244,  72089
+ 89,Guatemala,2005,   14631,  74373
+ 89,Guatemala,2006,   13535,  87326
+ 89,Guatemala,2007,   10894,  77520
+ 89,Guatemala,2008,   11529, 109247
+ 89,Guatemala,2009,    6818,  86528
+ 89,Guatemala,2010,    9875,  78369
+ 89,Guatemala,2011,   13205,  98838
+ 90,Guinea,2000,   10118,    235
+ 90,Guinea,2001,   11296,    264
+ 90,Guinea,2002,   12302,     69
+ 90,Guinea,2003,   12155,   7869
+ 90,Guinea,2004,   11228,   1517
+ 90,Guinea,2005,   13716,   5818
+ 90,Guinea,2006,   16367,   4357
+ 90,Guinea,2007,   13184,   4132
+ 90,Guinea,2008,   15563,   1996
+ 90,Guinea,2009,   15559,    286
+ 90,Guinea,2010,   27919,   1033
+ 90,Guinea,2011,   27827,     81
+ 91,Guyana,2000,    6811,  11904
+ 91,Guyana,2001,    7165,  10331
+ 91,Guyana,2002,    7770,   9741
+ 91,Guyana,2003,    8275,  12035
+ 91,Guyana,2004,    7429,  15605
+ 91,Guyana,2005,    7850,  18414
+ 91,Guyana,2006,    8290,  25455
+ 91,Guyana,2007,    6308,  33179
+ 91,Guyana,2008,   13018,  50889
+ 91,Guyana,2009,    8513,  36364
+ 91,Guyana,2010,    9712,  27759
+ 91,Guyana,2011,    8563,  15698
+ 93,Haiti,2000,   12212,   1257
+ 93,Haiti,2001,   14488,   1250
+ 93,Haiti,2002,   11454,    707
+ 93,Haiti,2003,   10970,   1982
+ 93,Haiti,2004,   10805,   1101
+ 93,Haiti,2005,    9530,    727
+ 93,Haiti,2006,   17461,    876
+ 93,Haiti,2007,   13302,    567
+ 93,Haiti,2008,   15723,   3442
+ 93,Haiti,2009,   12420,   2207
+ 93,Haiti,2010,   18310,    660
+ 93,Haiti,2011,   22403,   1056
+ 95,Honduras,2000,    4928,  32933
+ 95,Honduras,2001,    5832,  23654
+ 95,Honduras,2002,    5661,  30085
+ 95,Honduras,2003,    7114,  25231
+ 95,Honduras,2004,   10001,  35581
+ 95,Honduras,2005,   13376,  40439
+ 95,Honduras,2006,   15115,  73121
+ 95,Honduras,2007,    9737,  74199
+ 95,Honduras,2008,   11579,  51431
+ 95,Honduras,2009,   11133,  55168
+ 95,Honduras,2010,   10682,  43727
+ 95,Honduras,2011,   12787,  90432
+ 96,"China, Hong Kong SAR",2000,  138266,  13319
+ 96,"China, Hong Kong SAR",2001,  125926,   6566
+ 96,"China, Hong Kong SAR",2002,  149064,   8538
+ 96,"China, Hong Kong SAR",2003,  152524,  17775
+ 96,"China, Hong Kong SAR",2004,  167878,  11178
+ 96,"China, Hong Kong SAR",2005,  166106,  10099
+ 96,"China, Hong Kong SAR",2006,  184812,  11577
+ 96,"China, Hong Kong SAR",2007,  224103,  17849
+ 96,"China, Hong Kong SAR",2008,  331927,  15487
+ 96,"China, Hong Kong SAR",2009,  376152,  12063
+ 96,"China, Hong Kong SAR",2010,  515206,  10188
+ 96,"China, Hong Kong SAR",2011,  872323,  15379
+ 97,Hungary,2000,   91122,  42365
+ 97,Hungary,2001,   79972,  61225
+ 97,Hungary,2002,  101999,  83917
+ 97,Hungary,2003,  128219, 132427
+ 97,Hungary,2004,  236132, 142291
+ 97,Hungary,2005,  294232, 152949
+ 97,Hungary,2006,  254986, 132493
+ 97,Hungary,2007,  325464, 268020
+ 97,Hungary,2008,  458393, 238636
+ 97,Hungary,2009,  453976, 249463
+ 97,Hungary,2010,  451644, 254421
+ 97,Hungary,2011,  529965, 305002
+ 98,Croatia,2000,   38079,   1444
+ 98,Croatia,2001,   39915,   1939
+ 98,Croatia,2002,   52774,   2060
+ 98,Croatia,2003,   68664,   2291
+ 98,Croatia,2004,   83600,   1629
+ 98,Croatia,2005,  102584,    990
+ 98,Croatia,2006,  136625,   1012
+ 98,Croatia,2007,  141544,   1627
+ 98,Croatia,2008,  188124,   1379
+ 98,Croatia,2009,  182693,   1395
+ 98,Croatia,2010,  187746,   3411
+ 98,Croatia,2011,  208706,   2316
+ 99,Iceland,2000,   16340,    458
+ 99,Iceland,2001,   18990,    626
+ 99,Iceland,2002,   23381,    973
+ 99,Iceland,2003,   32725,   2437
+ 99,Iceland,2004,   41388,   2666
+ 99,Iceland,2005,   44656,   1331
+ 99,Iceland,2006,   50003,    723
+ 99,Iceland,2007,   64266,   1086
+ 99,Iceland,2008,   62992,   2602
+ 99,Iceland,2009,   56637,   1946
+ 99,Iceland,2010,   63084,   4757
+ 99,Iceland,2011,   72638,   6373
+100,India,2000,   23858, 195755
+100,India,2001,   11219, 154795
+100,India,2002,   15468, 151508
+100,India,2003,   16593, 169554
+100,India,2004,   19862, 200828
+100,India,2005,   31460, 245427
+100,India,2006,   35802, 295518
+100,India,2007,   48491, 343105
+100,India,2008,   49141, 465532
+100,India,2009,   44810, 407311
+100,India,2010,   58187, 435581
+100,India,2011,   73194, 508067
+101,Indonesia,2000,   74507, 364587
+101,Indonesia,2001,   65023, 258252
+101,Indonesia,2002,   74632, 392144
+101,Indonesia,2003,  107447, 417511
+101,Indonesia,2004,  103841, 589359
+101,Indonesia,2005,   96466, 659202
+101,Indonesia,2006,  106203, 718325
+101,Indonesia,2007,  123720, 671282
+101,Indonesia,2008,   96703,1047832
+101,Indonesia,2009,  126056,1068734
+101,Indonesia,2010,  127462,1148182
+101,Indonesia,2011,  155115,1561116
+102,Iran (Islamic Republic of),2000,    4394,   4519
+102,Iran (Islamic Republic of),2001,    8039,   2359
+102,Iran (Islamic Republic of),2002,   21320,   3318
+102,Iran (Islamic Republic of),2003,   13812,   6060
+102,Iran (Islamic Republic of),2004,   51474,   5919
+102,Iran (Islamic Republic of),2005,   61717,   5576
+102,Iran (Islamic Republic of),2006,   46219,  11256
+102,Iran (Islamic Republic of),2007,   73727,  14353
+102,Iran (Islamic Republic of),2008,  111205,  17834
+102,Iran (Islamic Republic of),2009,   80230,   8569
+102,Iran (Islamic Republic of),2010,  114397,  19654
+102,Iran (Islamic Republic of),2011,   87173,  32019
+103,Iraq,2000,    8678,0
+103,Iraq,2001,    4404,0
+103,Iraq,2002,    3627,0
+103,Iraq,2003,   19284,0
+103,Iraq,2004,   34873,0
+103,Iraq,2005,   11307,      0
+103,Iraq,2006,   19432,      0
+103,Iraq,2007,   22657,0
+103,Iraq,2008,   44107,     17
+103,Iraq,2009,   34594,0
+103,Iraq,2010,   44422,0
+103,Iraq,2011,   41839,      0
+104,Ireland,2000,  214177, 225894
+104,Ireland,2001,  248893, 187226
+104,Ireland,2002,  309570, 221796
+104,Ireland,2003,  409658, 345372
+104,Ireland,2004,  498478, 380197
+104,Ireland,2005,  607581, 407276
+104,Ireland,2006,  662266, 399750
+104,Ireland,2007,  867160, 418882
+104,Ireland,2008,  928970, 448511
+104,Ireland,2009,  865499, 419163
+104,Ireland,2010,  862547, 509776
+104,Ireland,2011, 1022361, 522592
+105,Israel,2000,   52357, 138441
+105,Israel,2001,   67020, 174299
+105,Israel,2002,   63750, 195046
+105,Israel,2003,   78504, 213516
+105,Israel,2004,   83138, 233131
+105,Israel,2005,   88962, 266529
+105,Israel,2006,  115842, 304371
+105,Israel,2007,  186821, 379765
+105,Israel,2008,  194919, 310240
+105,Israel,2009,  159406, 275935
+105,Israel,2010,  161259, 278951
+105,Israel,2011,  202448, 350009
+106,Italy,2000, 2151883, 223017
+106,Italy,2001, 2248648, 239844
+106,Italy,2002, 2500752, 312058
+106,Italy,2003, 2978923, 469598
+106,Italy,2004, 3330047, 502862
+106,Italy,2005, 3495449, 578294
+106,Italy,2006, 3905079, 595890
+106,Italy,2007, 4457928, 746645
+106,Italy,2008, 4510780, 934012
+106,Italy,2009, 4085528, 932265
+106,Italy,2010, 4010768,1063218
+106,Italy,2011, 4481416,1208482
+107,Côte d'Ivoire,2000,   15084, 313833
+107,Côte d'Ivoire,2001,   16781, 394441
+107,Côte d'Ivoire,2002,   17907, 650480
+107,Côte d'Ivoire,2003,   27562, 824282
+107,Côte d'Ivoire,2004,   24738, 663977
+107,Côte d'Ivoire,2005,   29557, 549497
+107,Côte d'Ivoire,2006,   35137, 520058
+107,Côte d'Ivoire,2007,   31937, 751566
+107,Côte d'Ivoire,2008,   45297, 945329
+107,Côte d'Ivoire,2009,   52022,1062781
+107,Côte d'Ivoire,2010,   66771,1101029
+107,Côte d'Ivoire,2011,   59626,1317903
+108,Kazakhstan,2000,    5894,    557
+108,Kazakhstan,2001,    6848,    761
+108,Kazakhstan,2002,   10264,   1196
+108,Kazakhstan,2003,    9497,      1
+108,Kazakhstan,2004,   11939,   1548
+108,Kazakhstan,2005,   17804,     47
+108,Kazakhstan,2006,   24807,    110
+108,Kazakhstan,2007,   30582,   5569
+108,Kazakhstan,2008,   26870,  12627
+108,Kazakhstan,2009,   24612,   3651
+108,Kazakhstan,2010,   31485,  11063
+108,Kazakhstan,2011,   41779,  15592
+109,Jamaica,2000,    6064,   3675
+109,Jamaica,2001,    6996,   1449
+109,Jamaica,2002,    8670,   3541
+109,Jamaica,2003,   10307,   6026
+109,Jamaica,2004,    7817,   3092
+109,Jamaica,2005,    9309,   3205
+109,Jamaica,2006,   12098,   1772
+109,Jamaica,2007,   11652,   2238
+109,Jamaica,2008,   12220,   2609
+109,Jamaica,2009,   13944,   3453
+109,Jamaica,2010,   14178,   3702
+109,Jamaica,2011,   13149,   3722
+110,Japan,2000,  434534,  18492
+110,Japan,2001,  343863,  21095
+110,Japan,2002,  362749,  21583
+110,Japan,2003,  455557,  21018
+110,Japan,2004,  502570,  25405
+110,Japan,2005,  505378,  24759
+110,Japan,2006,  523371,  23085
+110,Japan,2007,  602132,  27910
+110,Japan,2008,  655614,  34496
+110,Japan,2009,  805811,  29475
+110,Japan,2010,  854142,  35930
+110,Japan,2011, 1039906,  37991
+112,Jordan,2000,   27895,    568
+112,Jordan,2001,   25616,    265
+112,Jordan,2002,   23563,    540
+112,Jordan,2003,   38306,   1141
+112,Jordan,2004,   31558,    484
+112,Jordan,2005,   38253,    567
+112,Jordan,2006,   38765,    543
+112,Jordan,2007,   40122,    372
+112,Jordan,2008,   53023,    603
+112,Jordan,2009,   53100,    286
+112,Jordan,2010,   87653,    397
+112,Jordan,2011,   68894,   1024
+113,Kyrgyzstan,2000,      82,      1
+113,Kyrgyzstan,2001,     121,      0
+113,Kyrgyzstan,2002,     142,     50
+113,Kyrgyzstan,2003,     528,    233
+113,Kyrgyzstan,2004,     233,    151
+113,Kyrgyzstan,2005,     303,    212
+113,Kyrgyzstan,2006,    1211,      8
+113,Kyrgyzstan,2007,     566,    411
+113,Kyrgyzstan,2008,     937,    508
+113,Kyrgyzstan,2009,    1849,    825
+113,Kyrgyzstan,2010,    1151,      8
+113,Kyrgyzstan,2011,    2024,    607
+114,Kenya,2000,    7519, 145968
+114,Kenya,2001,    5021, 145901
+114,Kenya,2002,    5003, 174695
+114,Kenya,2003,    6866, 228535
+114,Kenya,2004,   12222, 267014
+114,Kenya,2005,   15202, 298429
+114,Kenya,2006,   14991, 344887
+114,Kenya,2007,   17399, 400661
+114,Kenya,2008,   15985, 490088
+114,Kenya,2009,   12743, 447272
+114,Kenya,2010,   14397, 444262
+114,Kenya,2011,   20624, 520339
+115,Cambodia,2000,     245,     14
+115,Cambodia,2001,       8,      1
+115,Cambodia,2002,      35,    308
+115,Cambodia,2003,      69,      1
+115,Cambodia,2004,     158,     35
+115,Cambodia,2005,      69,0
+115,Cambodia,2006,     175,      3
+115,Cambodia,2007,     439,    381
+115,Cambodia,2008,     559,    543
+115,Cambodia,2009,     760,     23
+115,Cambodia,2010,    1661,   1223
+115,Cambodia,2011,    3686,  10103
+116,Democratic People's Republic of Korea,2000,    2073,     18
+116,Democratic People's Republic of Korea,2001,    2352,0
+116,Democratic People's Republic of Korea,2002,    3049,0
+116,Democratic People's Republic of Korea,2003,    1752,0
+116,Democratic People's Republic of Korea,2004,     210,0
+116,Democratic People's Republic of Korea,2005,    8035,0
+116,Democratic People's Republic of Korea,2006,    2172,     11
+116,Democratic People's Republic of Korea,2007,    3230,     60
+116,Democratic People's Republic of Korea,2008,    1918,     30
+116,Democratic People's Republic of Korea,2009,    1629,      0
+116,Democratic People's Republic of Korea,2010,     578,      1
+116,Democratic People's Republic of Korea,2011,     294,0
+117,Republic of Korea,2000,   93158,   4515
+117,Republic of Korea,2001,   64627,   6148
+117,Republic of Korea,2002,   79507,   5496
+117,Republic of Korea,2003,   78089,   5524
+117,Republic of Korea,2004,  141668,   6507
+117,Republic of Korea,2005,  141335,   5528
+117,Republic of Korea,2006,  177241,   7483
+117,Republic of Korea,2007,  213122,  12409
+117,Republic of Korea,2008,  218371,  17626
+117,Republic of Korea,2009,  166741,  12874
+117,Republic of Korea,2010,  228849,  14442
+117,Republic of Korea,2011,  325103,  18656
+118,Kuwait,2000,   45051,     18
+118,Kuwait,2001,   39987,    206
+118,Kuwait,2002,   47876,    895
+118,Kuwait,2003,   68959,    403
+118,Kuwait,2004,   81139,    552
+118,Kuwait,2005,   79077,    550
+118,Kuwait,2006,   77267,      9
+118,Kuwait,2007,   97574,    250
+118,Kuwait,2008,  105206,     63
+118,Kuwait,2009,   79757,      1
+118,Kuwait,2010,  126366,      5
+118,Kuwait,2011,  136538,     56
+119,Latvia,2000,   36730,   7103
+119,Latvia,2001,   40146,  13691
+119,Latvia,2002,   45249,   9019
+119,Latvia,2003,   44151,   8267
+119,Latvia,2004,   47615,   9838
+119,Latvia,2005,   49912,   9721
+119,Latvia,2006,   53698,  11146
+119,Latvia,2007,   82750,  20595
+119,Latvia,2008,  132041,  19259
+119,Latvia,2009,   96549,  30727
+119,Latvia,2010,  116159,  24291
+119,Latvia,2011,  125659,  46462
+120,Lao People's Democratic Republic,2000,      25,    271
+120,Lao People's Democratic Republic,2001,       7,    110
+120,Lao People's Democratic Republic,2002,      33,    562
+120,Lao People's Democratic Republic,2003,0,    204
+120,Lao People's Democratic Republic,2004,0,     21
+120,Lao People's Democratic Republic,2005,      52,    595
+120,Lao People's Democratic Republic,2006,0,    170
+120,Lao People's Democratic Republic,2007,      68,    530
+120,Lao People's Democratic Republic,2008,      29,      1
+120,Lao People's Democratic Republic,2009,      31,    520
+120,Lao People's Democratic Republic,2010,     625,   1030
+120,Lao People's Democratic Republic,2011,     535,    509
+121,Lebanon,2000,   46651,    126
+121,Lebanon,2001,   41223,    309
+121,Lebanon,2002,   48036,    334
+121,Lebanon,2003,   48304,    951
+121,Lebanon,2004,   70214,   5521
+121,Lebanon,2005,   65613,   5174
+121,Lebanon,2006,   74341,   4144
+121,Lebanon,2007,   74898,   3445
+121,Lebanon,2008,   90941,   5133
+121,Lebanon,2009,  103925,   7297
+121,Lebanon,2010,  125262,  12929
+121,Lebanon,2011,  121576,  31710
+122,Lesotho,2000,0,0
+122,Lesotho,2001,0,0
+122,Lesotho,2002,       0,0
+122,Lesotho,2003,      27,0
+122,Lesotho,2004,     371,     62
+122,Lesotho,2005,       1,      0
+122,Lesotho,2006,       2,    103
+122,Lesotho,2007,       3,    142
+122,Lesotho,2008,      13,     53
+122,Lesotho,2009,      71,      0
+122,Lesotho,2010,0,0
+122,Lesotho,2011,0,0
+123,Liberia,2000,    7913,    371
+123,Liberia,2001,    5147,   1792
+123,Liberia,2002,    4138,    756
+123,Liberia,2003,    5182,   1365
+123,Liberia,2004,   18846,   4828
+123,Liberia,2005,   14262,   5709
+123,Liberia,2006,   14699,    697
+123,Liberia,2007,   15903,    252
+123,Liberia,2008,   16541,   3169
+123,Liberia,2009,   13319,   3915
+123,Liberia,2010,   15533,   7081
+123,Liberia,2011,   17544,   2140
+124,Libya,2000,   62412,0
+124,Libya,2001,   78051,      5
+124,Libya,2002,   50651,0
+124,Libya,2003,   39612,0
+124,Libya,2004,   59286,    114
+124,Libya,2005,   55039,0
+124,Libya,2006,   57362,      0
+124,Libya,2007,  100500,   1511
+124,Libya,2008,  108231,      0
+124,Libya,2009,  103429,0
+124,Libya,2010,  132065,      1
+124,Libya,2011,   91086,0
+126,Lithuania,2000,   32318,  16191
+126,Lithuania,2001,   34463,  28774
+126,Lithuania,2002,   42608,  21147
+126,Lithuania,2003,   47839,  26620
+126,Lithuania,2004,   64834,  45824
+126,Lithuania,2005,   82056,  33971
+126,Lithuania,2006,  100325,  47027
+126,Lithuania,2007,  132903,  53968
+126,Lithuania,2008,  186291,  61048
+126,Lithuania,2009,  174854,  99879
+126,Lithuania,2010,  205999,  84563
+126,Lithuania,2011,  211765, 210624
+127,Marshall Islands,2000,0,0
+127,Marshall Islands,2001,      16,      6
+127,Marshall Islands,2002,0,0
+127,Marshall Islands,2003,0,0
+127,Marshall Islands,2004,      34,0
+127,Marshall Islands,2005,      17,      0
+127,Marshall Islands,2006,       1,      9
+127,Marshall Islands,2007,      17,   2027
+127,Marshall Islands,2008,      96,     14
+127,Marshall Islands,2009,0,     16
+127,Marshall Islands,2010,      37,      1
+127,Marshall Islands,2011,0,      6
+128,"China, Macao SAR",2000,     240,0
+128,"China, Macao SAR",2001,     759,      0
+128,"China, Macao SAR",2002,     140,      2
+128,"China, Macao SAR",2003,     212,0
+128,"China, Macao SAR",2004,    1062,0
+128,"China, Macao SAR",2005,    3243,      1
+128,"China, Macao SAR",2006,    1042,0
+128,"China, Macao SAR",2007,    1124,      7
+128,"China, Macao SAR",2008,    2448,      5
+128,"China, Macao SAR",2009,    7757,     12
+128,"China, Macao SAR",2010,   16657,      7
+128,"China, Macao SAR",2011,   52844,0
+129,Madagascar,2000,    1942,   2456
+129,Madagascar,2001,    2309,  20103
+129,Madagascar,2002,     862,  38723
+129,Madagascar,2003,    1214,   6805
+129,Madagascar,2004,     508,  10737
+129,Madagascar,2005,     316,   4692
+129,Madagascar,2006,     176,  21377
+129,Madagascar,2007,     383,  10693
+129,Madagascar,2008,    3464,  99251
+129,Madagascar,2009,    1309,  20280
+129,Madagascar,2010,    1667,  64124
+129,Madagascar,2011,    1549,  31414
+130,Malawi,2000,    3219,  32994
+130,Malawi,2001,     422,  28865
+130,Malawi,2002,     835,  23615
+130,Malawi,2003,     104,  26112
+130,Malawi,2004,     409,  19983
+130,Malawi,2005,    1820,  44877
+130,Malawi,2006,    3759,  28567
+130,Malawi,2007,    1608,  37478
+130,Malawi,2008,     853,  67490
+130,Malawi,2009,    1212,  62263
+130,Malawi,2010,    1139,  57349
+130,Malawi,2011,    1257,  34663
+131,Malaysia,2000,   56886, 237534
+131,Malaysia,2001,   72158, 292960
+131,Malaysia,2002,   86362, 334574
+131,Malaysia,2003,   86968, 476103
+131,Malaysia,2004,  109229, 670179
+131,Malaysia,2005,  143660, 761685
+131,Malaysia,2006,  150640, 851464
+131,Malaysia,2007,  119950, 704336
+131,Malaysia,2008,  132976,1367511
+131,Malaysia,2009,  158780, 795078
+131,Malaysia,2010,  161638,1070533
+131,Malaysia,2011,  178270,1165916
+132,Maldives,2000,    2783,0
+132,Maldives,2001,    2805,      0
+132,Maldives,2002,    3816,0
+132,Maldives,2003,    4319,      1
+132,Maldives,2004,    4304,    182
+132,Maldives,2005,    5576,0
+132,Maldives,2006,    5996,0
+132,Maldives,2007,    5316,     62
+132,Maldives,2008,    5771,0
+132,Maldives,2009,    7526,0
+132,Maldives,2010,    6933,0
+132,Maldives,2011,    8647,0
+133,Mali,2000,    3313,    401
+133,Mali,2001,    5055,    277
+133,Mali,2002,    4590,    365
+133,Mali,2003,    3815,    145
+133,Mali,2004,    3979,    901
+133,Mali,2005,    8406,   1602
+133,Mali,2006,    9029,   2004
+133,Mali,2007,   10432,   3362
+133,Mali,2008,   13244,   4195
+133,Mali,2009,   10093,   2825
+133,Mali,2010,   13070,   3261
+133,Mali,2011,   19629,    285
+134,Malta,2000,   23882,   3810
+134,Malta,2001,   25561,   2040
+134,Malta,2002,   25065,   3484
+134,Malta,2003,   28612,   1429
+134,Malta,2004,   34532,   4397
+134,Malta,2005,   35572,   1406
+134,Malta,2006,   41685,   2612
+134,Malta,2007,   53327,   1818
+134,Malta,2008,   59537,   4043
+134,Malta,2009,   63609,   3284
+134,Malta,2010,   65224,   5673
+134,Malta,2011,   73789,   9771
+136,Mauritania,2000,   11547,      3
+136,Mauritania,2001,   11308,     20
+136,Mauritania,2002,   13527,     27
+136,Mauritania,2003,   21242,     44
+136,Mauritania,2004,   18526,     12
+136,Mauritania,2005,   16919,0
+136,Mauritania,2006,   16219,0
+136,Mauritania,2007,   22124,0
+136,Mauritania,2008,   25475,0
+136,Mauritania,2009,   27387,      1
+136,Mauritania,2010,   37037,0
+136,Mauritania,2011,   40085,0
+137,Mauritius,2000,    2323,   4601
+137,Mauritius,2001,    3017,   1938
+137,Mauritius,2002,    2788,   1245
+137,Mauritius,2003,    2463,   1451
+137,Mauritius,2004,    2974,   3838
+137,Mauritius,2005,    3425,   6533
+137,Mauritius,2006,    2798,   3901
+137,Mauritius,2007,    3651,   2900
+137,Mauritius,2008,    3647,   7000
+137,Mauritius,2009,    4375,  13175
+137,Mauritius,2010,    5600,   5663
+137,Mauritius,2011,    7014,   4436
+138,Mexico,2000,   85171,  50193
+138,Mexico,2001,   72853,  43802
+138,Mexico,2002,   80809,  50579
+138,Mexico,2003,   84838,  60083
+138,Mexico,2004,   66628,  67918
+138,Mexico,2005,   95182,  85916
+138,Mexico,2006,   98988, 102761
+138,Mexico,2007,  129680,  97594
+138,Mexico,2008,  131378, 133428
+138,Mexico,2009,   96220, 119791
+138,Mexico,2010,  120794, 158058
+138,Mexico,2011,  141488, 219476
+141,Mongolia,2000,    1698,    217
+141,Mongolia,2001,    2035,     83
+141,Mongolia,2002,    1224,0
+141,Mongolia,2003,    1080,0
+141,Mongolia,2004,     850,0
+141,Mongolia,2005,    1054,      0
+141,Mongolia,2006,    1387,      6
+141,Mongolia,2007,    1747,      3
+141,Mongolia,2008,    2139,      1
+141,Mongolia,2009,    2645,      1
+141,Mongolia,2010,    4454,      0
+141,Mongolia,2011,    8663,      4
+142,Montserrat,2000,      64,0
+142,Montserrat,2001,      67,0
+142,Montserrat,2002,     155,0
+142,Montserrat,2003,     267,    100
+142,Montserrat,2004,     297,0
+142,Montserrat,2005,     286,0
+142,Montserrat,2006,     259,0
+142,Montserrat,2007,     219,0
+142,Montserrat,2008,     226,0
+142,Montserrat,2009,     242,0
+142,Montserrat,2010,     199,      3
+142,Montserrat,2011,     186,0
+143,Morocco,2000,   37846,  36494
+143,Morocco,2001,   27375,  43086
+143,Morocco,2002,   21421,  50578
+143,Morocco,2003,   42268,  61853
+143,Morocco,2004,   45808,  69976
+143,Morocco,2005,   54259,  59388
+143,Morocco,2006,   81631, 101462
+143,Morocco,2007,   80535, 103770
+143,Morocco,2008,   83969, 141520
+143,Morocco,2009,   76519, 118541
+143,Morocco,2010,   81605, 122242
+143,Morocco,2011,  111533, 138838
+144,Mozambique,2000,    2056,   9681
+144,Mozambique,2001,     451,   5760
+144,Mozambique,2002,     160,   9340
+144,Mozambique,2003,     457,  14060
+144,Mozambique,2004,     759,   8454
+144,Mozambique,2005,    1412,  16335
+144,Mozambique,2006,    1898,  29511
+144,Mozambique,2007,     711,  32975
+144,Mozambique,2008,    1619,  26396
+144,Mozambique,2009,    2508,  34125
+144,Mozambique,2010,    5576,  32239
+144,Mozambique,2011,    4741,  47675
+145,Micronesia (Federated States of),2000,      23,0
+145,Micronesia (Federated States of),2001,      61,0
+145,Micronesia (Federated States of),2002,      69,0
+145,Micronesia (Federated States of),2003,      38,0
+145,Micronesia (Federated States of),2004,      32,0
+145,Micronesia (Federated States of),2005,      75,0
+145,Micronesia (Federated States of),2006,0,0
+145,Micronesia (Federated States of),2007,0,0
+145,Micronesia (Federated States of),2008,      34,0
+145,Micronesia (Federated States of),2009,       3,0
+145,Micronesia (Federated States of),2010,0,0
+145,Micronesia (Federated States of),2011,0,0
+146,Republic of Moldova,2000,   10799,   3276
+146,Republic of Moldova,2001,   12704,   2268
+146,Republic of Moldova,2002,   12938,   2467
+146,Republic of Moldova,2003,    9834,    101
+146,Republic of Moldova,2004,    8852,    161
+146,Republic of Moldova,2005,    7264,    417
+146,Republic of Moldova,2006,   10362,   2385
+146,Republic of Moldova,2007,    6724,   1000
+146,Republic of Moldova,2008,   14848,   7693
+146,Republic of Moldova,2009,   14950,   3317
+146,Republic of Moldova,2010,   13915,   3457
+146,Republic of Moldova,2011,   15837,  25169
+147,Namibia,2000,     292,   1817
+147,Namibia,2001,     118,   1529
+147,Namibia,2002,      86,   4696
+147,Namibia,2003,    1755,   7651
+147,Namibia,2004,    2536,   6786
+147,Namibia,2005,     121,  12579
+147,Namibia,2006,     294,  21553
+147,Namibia,2007,     116,  16664
+147,Namibia,2008,     810,  43352
+147,Namibia,2009,     449,  47078
+147,Namibia,2010,     752,  55275
+147,Namibia,2011,     465,  35801
+148,Nauru,2000,0,0
+148,Nauru,2001,0,0
+148,Nauru,2002,0,      7
+148,Nauru,2003,       8,0
+148,Nauru,2004,0,0
+148,Nauru,2005,      10,     13
+148,Nauru,2006,0,     66
+148,Nauru,2007,0,0
+148,Nauru,2008,0,0
+148,Nauru,2009,0,0
+148,Nauru,2010,0,     70
+148,Nauru,2011,0,0
+149,Nepal,2000,     462,     62
+149,Nepal,2001,     588,     61
+149,Nepal,2002,     529,     72
+149,Nepal,2003,    1060,     94
+149,Nepal,2004,    1939,    157
+149,Nepal,2005,    3897,    232
+149,Nepal,2006,    4926,    181
+149,Nepal,2007,    4846,    248
+149,Nepal,2008,    3748,    361
+149,Nepal,2009,    4587,    301
+149,Nepal,2010,    3886,     99
+149,Nepal,2011,    5469,    197
+151,Netherlands Antilles,2000,   39650,  15978
+151,Netherlands Antilles,2001,   40290,   2941
+151,Netherlands Antilles,2002,   44755,   7166
+151,Netherlands Antilles,2003,   50253,  19717
+151,Netherlands Antilles,2004,   47640,  16724
+151,Netherlands Antilles,2005,   51311,  10861
+151,Netherlands Antilles,2006,   59955,  14424
+151,Netherlands Antilles,2007,   72275,  20761
+151,Netherlands Antilles,2008,   77322,  20160
+151,Netherlands Antilles,2009,   73920,  10817
+151,Netherlands Antilles,2010,   76861,   8279
+151,Netherlands Antilles,2011,   90794,   6611
+153,New Caledonia,2000,     895,    169
+153,New Caledonia,2001,     828,0
+153,New Caledonia,2002,     828,      2
+153,New Caledonia,2003,     878,0
+153,New Caledonia,2004,    1009,0
+153,New Caledonia,2005,    1228,0
+153,New Caledonia,2006,    1338,0
+153,New Caledonia,2007,    1574,      0
+153,New Caledonia,2008,    1952,0
+153,New Caledonia,2009,    1501,      4
+153,New Caledonia,2010,    3260,      1
+153,New Caledonia,2011,    3084,      0
+154,The former Yugoslav Republic of Macedonia,2000,    7706,   4752
+154,The former Yugoslav Republic of Macedonia,2001,    5867,   3845
+154,The former Yugoslav Republic of Macedonia,2002,    6940,   3292
+154,The former Yugoslav Republic of Macedonia,2003,    7635,   6747
+154,The former Yugoslav Republic of Macedonia,2004,    9127,   5904
+154,The former Yugoslav Republic of Macedonia,2005,    7874,   9826
+154,The former Yugoslav Republic of Macedonia,2006,   10227,   7923
+154,The former Yugoslav Republic of Macedonia,2007,   14104,   7209
+154,The former Yugoslav Republic of Macedonia,2008,   14530,   7878
+154,The former Yugoslav Republic of Macedonia,2009,   12924,   7250
+154,The former Yugoslav Republic of Macedonia,2010,   14281,   9622
+154,The former Yugoslav Republic of Macedonia,2011,   15303,  10268
+155,Vanuatu,2000,       8,    138
+155,Vanuatu,2001,       3,0
+155,Vanuatu,2002,0,    513
+155,Vanuatu,2003,       8,0
+155,Vanuatu,2004,0,    614
+155,Vanuatu,2005,       9,    499
+155,Vanuatu,2006,0,0
+155,Vanuatu,2007,0,    769
+155,Vanuatu,2008,       4,    287
+155,Vanuatu,2009,      21,    761
+155,Vanuatu,2010,     174,   2315
+155,Vanuatu,2011,     194,   4530
+156,New Zealand,2000,   11684, 153194
+156,New Zealand,2001,   11986, 197521
+156,New Zealand,2002,   16034, 235411
+156,New Zealand,2003,   20497, 332954
+156,New Zealand,2004,   24804, 267747
+156,New Zealand,2005,   25537, 211537
+156,New Zealand,2006,   29122, 329562
+156,New Zealand,2007,   37574, 332960
+156,New Zealand,2008,   51424, 314626
+156,New Zealand,2009,   32604, 306756
+156,New Zealand,2010,   40045, 282917
+156,New Zealand,2011,   62068, 436552
+157,Nicaragua,2000,    3001,   5119
+157,Nicaragua,2001,    1508,   6309
+157,Nicaragua,2002,    1099,   3982
+157,Nicaragua,2003,    1927,   4872
+157,Nicaragua,2004,    2644,   7676
+157,Nicaragua,2005,    3399,   5325
+157,Nicaragua,2006,    3688,   5718
+157,Nicaragua,2007,    1470,   7771
+157,Nicaragua,2008,    2852,  12941
+157,Nicaragua,2009,    4292,  14571
+157,Nicaragua,2010,    7210,   7599
+157,Nicaragua,2011,    7361,  15665
+158,Niger,2000,    2204,     34
+158,Niger,2001,    2084,0
+158,Niger,2002,    5122,   3702
+158,Niger,2003,    3813,      0
+158,Niger,2004,    5654,      5
+158,Niger,2005,    4175,    133
+158,Niger,2006,    5910,0
+158,Niger,2007,    4150,      2
+158,Niger,2008,    7049,    243
+158,Niger,2009,    5018,      0
+158,Niger,2010,    3618,0
+158,Niger,2011,    9564,0
+159,Nigeria,2000,   66271,  28367
+159,Nigeria,2001,  110396,  81771
+159,Nigeria,2002,  128581, 102873
+159,Nigeria,2003,  153252, 235455
+159,Nigeria,2004,  164722, 166890
+159,Nigeria,2005,  203132, 195827
+159,Nigeria,2006,  165670,  98300
+159,Nigeria,2007,  178148, 145198
+159,Nigeria,2008,  262896, 169993
+159,Nigeria,2009,  208231, 370885
+159,Nigeria,2010,  300032, 389851
+159,Nigeria,2011,  357124, 460298
+162,Norway,2000,  155009,   2391
+162,Norway,2001,  152429,   1425
+162,Norway,2002,  199515,   1766
+162,Norway,2003,  276803,   4864
+162,Norway,2004,  332157,   2700
+162,Norway,2005,  383538,   3470
+162,Norway,2006,  419696,   3836
+162,Norway,2007,  578242,   6647
+162,Norway,2008,  685947,   7683
+162,Norway,2009,  638021,   9171
+162,Norway,2010,  688250,  10688
+162,Norway,2011,  881182,  13351
+165,Pakistan,2000,   18455,  32546
+165,Pakistan,2001,   13432,  44236
+165,Pakistan,2002,   13890,  29213
+165,Pakistan,2003,   14965,  28123
+165,Pakistan,2004,   19090,  28713
+165,Pakistan,2005,   28350,  19845
+165,Pakistan,2006,   35568,  18612
+165,Pakistan,2007,   24124,  26803
+165,Pakistan,2008,   25259,  38711
+165,Pakistan,2009,   23707,  37315
+165,Pakistan,2010,   27722,  32252
+165,Pakistan,2011,   39653,  27336
+166,Panama,2000,   12255,   4660
+166,Panama,2001,    6865,   5157
+166,Panama,2002,    8570,   9180
+166,Panama,2003,   10047,   9509
+166,Panama,2004,   10720,  17292
+166,Panama,2005,   16321,  20071
+166,Panama,2006,   19097,  46872
+166,Panama,2007,   16245,  73495
+166,Panama,2008,   18351,  88138
+166,Panama,2009,   14917,  56543
+166,Panama,2010,   17536,  31443
+166,Panama,2011,   27478,  45554
+167,Czech Republic,2000,   84985,  27326
+167,Czech Republic,2001,   82367,  33684
+167,Czech Republic,2002,  105706,  27698
+167,Czech Republic,2003,  128039,  29325
+167,Czech Republic,2004,  201080,  39196
+167,Czech Republic,2005,  269859,  45140
+167,Czech Republic,2006,  304926,  41065
+167,Czech Republic,2007,  472431,  66252
+167,Czech Republic,2008,  616925, 103826
+167,Czech Republic,2009,  580413,  89950
+167,Czech Republic,2010,  631151,  99526
+167,Czech Republic,2011,  714043, 257015
+168,Papua New Guinea,2000,     271,  11528
+168,Papua New Guinea,2001,     154,  13892
+168,Papua New Guinea,2002,     275,  12896
+168,Papua New Guinea,2003,     400,  25659
+168,Papua New Guinea,2004,      88,  22269
+168,Papua New Guinea,2005,     149,  30293
+168,Papua New Guinea,2006,     150,  16580
+168,Papua New Guinea,2007,     110,  24938
+168,Papua New Guinea,2008,      34,  95573
+168,Papua New Guinea,2009,      68,  62120
+168,Papua New Guinea,2010,      73, 105276
+168,Papua New Guinea,2011,     307, 196586
+169,Paraguay,2000,    1243,  33603
+169,Paraguay,2001,     546,  72359
+169,Paraguay,2002,     393,  50616
+169,Paraguay,2003,     452,  69938
+169,Paraguay,2004,     697,  86049
+169,Paraguay,2005,     295,  77239
+169,Paraguay,2006,     617,  73495
+169,Paraguay,2007,     956,  86005
+169,Paraguay,2008,    1895, 139990
+169,Paraguay,2009,    1661, 122859
+169,Paraguay,2010,    2808, 254053
+169,Paraguay,2011,    3527, 371045
+170,Peru,2000,    6145,  30575
+170,Peru,2001,    5969,  33083
+170,Peru,2002,    8840,  45808
+170,Peru,2003,    8251,  56575
+170,Peru,2004,    8332,  77062
+170,Peru,2005,    9095,  98774
+170,Peru,2006,   10470, 122845
+170,Peru,2007,    8262, 148156
+170,Peru,2008,   13510, 196198
+170,Peru,2009,   11124, 216798
+170,Peru,2010,   14554, 253206
+170,Peru,2011,   18397, 350063
+171,Philippines,2000,   65231, 113247
+171,Philippines,2001,   43130,  92963
+171,Philippines,2002,   52595, 101211
+171,Philippines,2003,   58206, 137574
+171,Philippines,2004,   57895, 211241
+171,Philippines,2005,   66391, 218010
+171,Philippines,2006,   74039, 172101
+171,Philippines,2007,   78398, 171597
+171,Philippines,2008,   87032, 237374
+171,Philippines,2009,   87188, 165494
+171,Philippines,2010,   80249, 318371
+171,Philippines,2011,  128454, 420898
+173,Poland,2000,  283058,  94906
+173,Poland,2001,  276015, 115125
+173,Poland,2002,  306218, 109755
+173,Poland,2003,  320020, 135824
+173,Poland,2004,  505069, 237351
+173,Poland,2005,  666072, 372042
+173,Poland,2006,  714527, 483238
+173,Poland,2007,  978883, 669226
+173,Poland,2008, 1436812, 825158
+173,Poland,2009, 1336828, 899058
+173,Poland,2010, 1478361, 907160
+173,Poland,2011, 1759991,1068236
+174,Portugal,2000,  151975,  45982
+174,Portugal,2001,  160312, 111248
+174,Portugal,2002,  184980, 104412
+174,Portugal,2003,  265673, 112337
+174,Portugal,2004,  286997,  92389
+174,Portugal,2005,  284230,  88367
+174,Portugal,2006,  304808,  86983
+174,Portugal,2007,  414271, 129417
+174,Portugal,2008,  426696, 196803
+174,Portugal,2009,  470292, 173433
+174,Portugal,2010,  469829, 183371
+174,Portugal,2011,  498223, 198929
+175,Guinea-Bissau,2000,    1523,    123
+175,Guinea-Bissau,2001,    2040,      2
+175,Guinea-Bissau,2002,    1737,0
+175,Guinea-Bissau,2003,    2832,    124
+175,Guinea-Bissau,2004,    4765,    462
+175,Guinea-Bissau,2005,    5638,    155
+175,Guinea-Bissau,2006,    5691,      0
+175,Guinea-Bissau,2007,    5305,    278
+175,Guinea-Bissau,2008,    6454,    217
+175,Guinea-Bissau,2009,    5415,      0
+175,Guinea-Bissau,2010,    6910,     32
+175,Guinea-Bissau,2011,    9147,      0
+178,Eritrea,2000,    3865,     33
+178,Eritrea,2001,    2312,     51
+178,Eritrea,2002,    2323,    151
+178,Eritrea,2003,    2013,     12
+178,Eritrea,2004,    1391,    106
+178,Eritrea,2005,    1575,    171
+178,Eritrea,2006,     772,     87
+178,Eritrea,2007,     613,0
+178,Eritrea,2008,     527,0
+178,Eritrea,2009,    1136,      1
+178,Eritrea,2010,     752,      0
+178,Eritrea,2011,    2175,      2
+179,Qatar,2000,   17839,     43
+179,Qatar,2001,   17073,     51
+179,Qatar,2002,   20780,      2
+179,Qatar,2003,   22031,0
+179,Qatar,2004,   25788,     43
+179,Qatar,2005,   28225,     51
+179,Qatar,2006,   44282,     19
+179,Qatar,2007,   59752,     73
+179,Qatar,2008,   53454,    132
+179,Qatar,2009,   46307,     66
+179,Qatar,2010,   58468,    101
+179,Qatar,2011,   65199,    164
+181,Zimbabwe,2000,    3633,  92323
+181,Zimbabwe,2001,    1435, 109925
+181,Zimbabwe,2002,    2155,  93255
+181,Zimbabwe,2003,    1005,  93108
+181,Zimbabwe,2004,    1345,  68031
+181,Zimbabwe,2005,     813,  66807
+181,Zimbabwe,2006,     647,  47556
+181,Zimbabwe,2007,     659,  63239
+181,Zimbabwe,2008,     188,  45062
+181,Zimbabwe,2009,     762,  48150
+181,Zimbabwe,2010,    1429,  63413
+181,Zimbabwe,2011,    1620,  55627
+183,Romania,2000,   44308,  22522
+183,Romania,2001,   51177,   8598
+183,Romania,2002,   63727,  15707
+183,Romania,2003,   58232,  14803
+183,Romania,2004,  102680,  27835
+183,Romania,2005,  127508,  23521
+183,Romania,2006,  166162,  35392
+183,Romania,2007,  219526,  46744
+183,Romania,2008,  398081, 171743
+183,Romania,2009,  411737, 188808
+183,Romania,2010,  356810, 139034
+183,Romania,2011,  378764, 317663
+184,Rwanda,2000,    1316,   6727
+184,Rwanda,2001,    1891,   6862
+184,Rwanda,2002,     864,   2357
+184,Rwanda,2003,     346,   3000
+184,Rwanda,2004,    1018,   3473
+184,Rwanda,2005,     592,   4076
+184,Rwanda,2006,    1376,   5659
+184,Rwanda,2007,    1329,   4732
+184,Rwanda,2008,     317,   1165
+184,Rwanda,2009,     908,     64
+184,Rwanda,2010,     492,      1
+184,Rwanda,2011,    1462,   1060
+185,Russian Federation,2000,  429211,  41156
+185,Russian Federation,2001,  470094,  39651
+185,Russian Federation,2002,  626634,   7259
+185,Russian Federation,2003,  709980,   8012
+185,Russian Federation,2004,  912998,  12478
+185,Russian Federation,2005, 1022294,   4295
+185,Russian Federation,2006, 1363018,  16565
+185,Russian Federation,2007, 1688029,  38836
+185,Russian Federation,2008, 2127919,  71766
+185,Russian Federation,2009, 1480471,  31933
+185,Russian Federation,2010, 1703613,  30004
+185,Russian Federation,2011, 1909570,  50561
+186,Serbia and Montenegro,2000,   29546,   4235
+186,Serbia and Montenegro,2001,   26151,   4135
+186,Serbia and Montenegro,2002,   31260,   7309
+186,Serbia and Montenegro,2003,   34449,   8208
+186,Serbia and Montenegro,2004,   52444,   6957
+186,Serbia and Montenegro,2005,   24239,   2584
+186,Serbia and Montenegro,2006,0,0
+186,Serbia and Montenegro,2007,0,0
+186,Serbia and Montenegro,2008,0,0
+186,Serbia and Montenegro,2009,0,0
+186,Serbia and Montenegro,2010,0,0
+186,Serbia and Montenegro,2011,0,0
+187,"Saint Helena, Ascension and Tristan da Cunha",2000,       4,0
+187,"Saint Helena, Ascension and Tristan da Cunha",2001,      10,0
+187,"Saint Helena, Ascension and Tristan da Cunha",2002,       1,0
+187,"Saint Helena, Ascension and Tristan da Cunha",2003,       8,0
+187,"Saint Helena, Ascension and Tristan da Cunha",2004,0,0
+187,"Saint Helena, Ascension and Tristan da Cunha",2005,0,0
+187,"Saint Helena, Ascension and Tristan da Cunha",2006,0,0
+187,"Saint Helena, Ascension and Tristan da Cunha",2007,0,0
+187,"Saint Helena, Ascension and Tristan da Cunha",2008,       4,     24
+187,"Saint Helena, Ascension and Tristan da Cunha",2009,       7,0
+187,"Saint Helena, Ascension and Tristan da Cunha",2010,      12,0
+187,"Saint Helena, Ascension and Tristan da Cunha",2011,0,0
+188,Saint Kitts and Nevis,2000,     693,     35
+188,Saint Kitts and Nevis,2001,     405,0
+188,Saint Kitts and Nevis,2002,     709,0
+188,Saint Kitts and Nevis,2003,     844,0
+188,Saint Kitts and Nevis,2004,     830,   1211
+188,Saint Kitts and Nevis,2005,     919,   2532
+188,Saint Kitts and Nevis,2006,    1069,   6036
+188,Saint Kitts and Nevis,2007,     926,      1
+188,Saint Kitts and Nevis,2008,    1086,0
+188,Saint Kitts and Nevis,2009,     833,0
+188,Saint Kitts and Nevis,2010,    1027,    119
+188,Saint Kitts and Nevis,2011,     937,     48
+189,Saint Lucia,2000,     453,0
+189,Saint Lucia,2001,     455,0
+189,Saint Lucia,2002,     507,0
+189,Saint Lucia,2003,     549,0
+189,Saint Lucia,2004,     610,0
+189,Saint Lucia,2005,     606,     13
+189,Saint Lucia,2006,     967,     25
+189,Saint Lucia,2007,     809,     45
+189,Saint Lucia,2008,     840,     29
+189,Saint Lucia,2009,     873,     48
+189,Saint Lucia,2010,    1052,     48
+189,Saint Lucia,2011,    1153,     98
+190,Saint Pierre and Miquelon,2000,     229,      5
+190,Saint Pierre and Miquelon,2001,     312,     45
+190,Saint Pierre and Miquelon,2002,     271,      0
+190,Saint Pierre and Miquelon,2003,     354,      1
+190,Saint Pierre and Miquelon,2004,     390,      1
+190,Saint Pierre and Miquelon,2005,     357,0
+190,Saint Pierre and Miquelon,2006,     345,0
+190,Saint Pierre and Miquelon,2007,     356,0
+190,Saint Pierre and Miquelon,2008,     463,0
+190,Saint Pierre and Miquelon,2009,     451,0
+190,Saint Pierre and Miquelon,2010,     467,0
+190,Saint Pierre and Miquelon,2011,     555,0
+191,Saint Vincent and the Grenadines,2000,     997,0
+191,Saint Vincent and the Grenadines,2001,     562,0
+191,Saint Vincent and the Grenadines,2002,     752,0
+191,Saint Vincent and the Grenadines,2003,     836,0
+191,Saint Vincent and the Grenadines,2004,     978,0
+191,Saint Vincent and the Grenadines,2005,    1108,0
+191,Saint Vincent and the Grenadines,2006,     792,     43
+191,Saint Vincent and the Grenadines,2007,    1063,0
+191,Saint Vincent and the Grenadines,2008,    1049,     74
+191,Saint Vincent and the Grenadines,2009,     673,     65
+191,Saint Vincent and the Grenadines,2010,     751,     50
+191,Saint Vincent and the Grenadines,2011,    1252,0
+193,Sao Tome and Principe,2000,     396,   1515
+193,Sao Tome and Principe,2001,     726,   1088
+193,Sao Tome and Principe,2002,    1035,   2918
+193,Sao Tome and Principe,2003,    1258,   5544
+193,Sao Tome and Principe,2004,    1330,   3165
+193,Sao Tome and Principe,2005,     807,   2167
+193,Sao Tome and Principe,2006,    1121,   3701
+193,Sao Tome and Principe,2007,     775,   2031
+193,Sao Tome and Principe,2008,     743,   2142
+193,Sao Tome and Principe,2009,     714,   4123
+193,Sao Tome and Principe,2010,     571,   5212
+193,Sao Tome and Principe,2011,    1005,   3015
+194,Saudi Arabia,2000,  189643,    795
+194,Saudi Arabia,2001,  217750,    997
+194,Saudi Arabia,2002,  211810,    776
+194,Saudi Arabia,2003,  268397,    952
+194,Saudi Arabia,2004,  307611,    303
+194,Saudi Arabia,2005,  324139,    142
+194,Saudi Arabia,2006,  387534,    280
+194,Saudi Arabia,2007,  434914,    593
+194,Saudi Arabia,2008,  477788,    475
+194,Saudi Arabia,2009,  373337,    393
+194,Saudi Arabia,2010,  409002,    503
+194,Saudi Arabia,2011,  498052,    968
+195,Senegal,2000,   19316,   7675
+195,Senegal,2001,   18990,   6238
+195,Senegal,2002,   20631,   6642
+195,Senegal,2003,   32683,   5794
+195,Senegal,2004,   35966,   8046
+195,Senegal,2005,   42093,  10219
+195,Senegal,2006,   51086,  10990
+195,Senegal,2007,   59833,  13976
+195,Senegal,2008,   71403,  11829
+195,Senegal,2009,   60261,  12863
+195,Senegal,2010,   99094,   9599
+195,Senegal,2011,   91163,  15562
+196,Seychelles,2000,    1113,     21
+196,Seychelles,2001,    2475,     13
+196,Seychelles,2002,    3087,    109
+196,Seychelles,2003,    2787,    119
+196,Seychelles,2004,    3712,     84
+196,Seychelles,2005,    4481,     55
+196,Seychelles,2006,    3776,    143
+196,Seychelles,2007,    1704,     60
+196,Seychelles,2008,    2422,     57
+196,Seychelles,2009,    3228,     32
+196,Seychelles,2010,    2423,     62
+196,Seychelles,2011,    3624,     98
+197,Sierra Leone,2000,   10794,    567
+197,Sierra Leone,2001,   17160,    577
+197,Sierra Leone,2002,   17924,    732
+197,Sierra Leone,2003,   12216,   2077
+197,Sierra Leone,2004,   11744,   1563
+197,Sierra Leone,2005,    9789,   2295
+197,Sierra Leone,2006,   12310,   4140
+197,Sierra Leone,2007,   16233,   1624
+197,Sierra Leone,2008,   13398,   2571
+197,Sierra Leone,2009,   10947,  17246
+197,Sierra Leone,2010,   13126,  22534
+197,Sierra Leone,2011,   17775,  29887
+198,Slovenia,2000,   38668,   3478
+198,Slovenia,2001,   31954,   2246
+198,Slovenia,2002,   33157,   2050
+198,Slovenia,2003,   43275,   3266
+198,Slovenia,2004,   57774,   3971
+198,Slovenia,2005,   71195,   2672
+198,Slovenia,2006,   69736,   1777
+198,Slovenia,2007,   75393,  10767
+198,Slovenia,2008,   93195,   5318
+198,Slovenia,2009,   96059,  16403
+198,Slovenia,2010,   97645,  17848
+198,Slovenia,2011,  150952,  25279
+199,Slovakia,2000,   47127,  11222
+199,Slovakia,2001,   31640,  19274
+199,Slovakia,2002,   44816,  12266
+199,Slovakia,2003,   51093,  18690
+199,Slovakia,2004,   68656,  15195
+199,Slovakia,2005,   70845,  23443
+199,Slovakia,2006,   86598,  24419
+199,Slovakia,2007,  128428,  26676
+199,Slovakia,2008,  179317,  37022
+199,Slovakia,2009,  155631,  36051
+199,Slovakia,2010,  187929,  25210
+199,Slovakia,2011,  200812,  28251
+200,Singapore,2000,   74516,  10271
+200,Singapore,2001,   76662,   6749
+200,Singapore,2002,   85104,  16690
+200,Singapore,2003,   86397,  12394
+200,Singapore,2004,  101865,  30407
+200,Singapore,2005,  106099,  27042
+200,Singapore,2006,  107725,  16476
+200,Singapore,2007,  111071,  17023
+200,Singapore,2008,  147533,  13590
+200,Singapore,2009,  128473,  12979
+200,Singapore,2010,  166227,  31536
+200,Singapore,2011,  230067,  19799
+201,Somalia,2000,    2307,0
+201,Somalia,2001,    1653,0
+201,Somalia,2002,    2795,0
+201,Somalia,2003,     401,     11
+201,Somalia,2004,     558,     42
+201,Somalia,2005,    2513,     23
+201,Somalia,2006,    4200,0
+201,Somalia,2007,    2282,      0
+201,Somalia,2008,    1273,0
+201,Somalia,2009,    2789,0
+201,Somalia,2010,    2446,0
+201,Somalia,2011,    3540,0
+202,South Africa,2000,   33446, 274302
+202,South Africa,2001,   29777, 351572
+202,South Africa,2002,   28973, 398566
+202,South Africa,2003,   35547, 500359
+202,South Africa,2004,   56365, 452822
+202,South Africa,2005,   57950, 516497
+202,South Africa,2006,   65054, 586837
+202,South Africa,2007,  148490, 783524
+202,South Africa,2008,  176465, 913662
+202,South Africa,2009,  226879, 847354
+202,South Africa,2010,  188825,1009158
+202,South Africa,2011,  276421, 954522
+203,Spain,2000,  584568, 579378
+203,Spain,2001,  620653, 577115
+203,Spain,2002,  828326, 667347
+203,Spain,2003, 1246826, 973156
+203,Spain,2004, 1500128,1088960
+203,Spain,2005, 1639903,1057583
+203,Spain,2006, 1544858,1181056
+203,Spain,2007, 2153345,1428597
+203,Spain,2008, 2402588,1501823
+203,Spain,2009, 2377140,1456326
+203,Spain,2010, 2390397,1585144
+203,Spain,2011, 2412255,1732983
+206,Sudan (former),2000,    9636,  16673
+206,Sudan (former),2001,    9260,  12355
+206,Sudan (former),2002,    9524,   9431
+206,Sudan (former),2003,    7866,  16774
+206,Sudan (former),2004,   18944,   8488
+206,Sudan (former),2005,   22257,   5098
+206,Sudan (former),2006,   38109,  20658
+206,Sudan (former),2007,   36240,   8746
+206,Sudan (former),2008,   40222,   6521
+206,Sudan (former),2009,   33192,   5156
+206,Sudan (former),2010,   38757,   1101
+206,Sudan (former),2011,   42903,   2579
+207,Suriname,2000,   16301,   8649
+207,Suriname,2001,   15575,   7177
+207,Suriname,2002,   19744,  11400
+207,Suriname,2003,   29496,   9076
+207,Suriname,2004,   32883,   8900
+207,Suriname,2005,   35238,   8971
+207,Suriname,2006,   42724,   6790
+207,Suriname,2007,   45799,   8854
+207,Suriname,2008,   47283,  10955
+207,Suriname,2009,   46635,  15827
+207,Suriname,2010,   51598,  15914
+207,Suriname,2011,   61404,   9427
+208,Tajikistan,2000,    1467,     21
+208,Tajikistan,2001,    4832,0
+208,Tajikistan,2002,    1175,0
+208,Tajikistan,2003,    1015,0
+208,Tajikistan,2004,     855,0
+208,Tajikistan,2005,     861,0
+208,Tajikistan,2006,     900,      8
+208,Tajikistan,2007,    1537,     29
+208,Tajikistan,2008,    1194,      6
+208,Tajikistan,2009,    1402,0
+208,Tajikistan,2010,     587,0
+208,Tajikistan,2011,     525,0
+209,Swaziland,2000,      37,   7866
+209,Swaziland,2001,       5,   9841
+209,Swaziland,2002,     159,   7604
+209,Swaziland,2003,0,  13502
+209,Swaziland,2004,0,  11430
+209,Swaziland,2005,0,   8815
+209,Swaziland,2006,0,  12239
+209,Swaziland,2007,0,  21020
+209,Swaziland,2008,     101,  18795
+209,Swaziland,2009,      22,  13487
+209,Swaziland,2010,      78,  17594
+209,Swaziland,2011,     284,  21588
+210,Sweden,2000,  450438,  34384
+210,Sweden,2001,  436358,  29460
+210,Sweden,2002,  495785,  26680
+210,Sweden,2003,  746945,  37160
+210,Sweden,2004,  883748,  42833
+210,Sweden,2005,  947541,  45686
+210,Sweden,2006,  989006,  58467
+210,Sweden,2007, 1249031,  62714
+210,Sweden,2008, 1413749,  69587
+210,Sweden,2009, 1345408,  94548
+210,Sweden,2010, 1450348,  92454
+210,Sweden,2011, 1828816, 155006
+211,Switzerland,2000,  357434,  42425
+211,Switzerland,2001,  285488,  44589
+211,Switzerland,2002,  399796,  53295
+211,Switzerland,2003,  497771,  71039
+211,Switzerland,2004,  679000,  97079
+211,Switzerland,2005,  667310, 105491
+211,Switzerland,2006,  684104, 129488
+211,Switzerland,2007,  772274, 176775
+211,Switzerland,2008,  849800, 240820
+211,Switzerland,2009,  888327, 226352
+211,Switzerland,2010,  976598, 247417
+211,Switzerland,2011,  971390, 272241
+212,Syrian Arab Republic,2000,   24635,   2052
+212,Syrian Arab Republic,2001,   20259,    537
+212,Syrian Arab Republic,2002,   28214,   2726
+212,Syrian Arab Republic,2003,   20030,   2376
+212,Syrian Arab Republic,2004,   32446,   2985
+212,Syrian Arab Republic,2005,   29372,   2718
+212,Syrian Arab Republic,2006,   62582,   3054
+212,Syrian Arab Republic,2007,   54397,   3320
+212,Syrian Arab Republic,2008,   44353,   1784
+212,Syrian Arab Republic,2009,   63813,   3032
+212,Syrian Arab Republic,2010,   93088,   7156
+212,Syrian Arab Republic,2011,   77951,   9130
+213,Turkmenistan,2000,     337,     84
+213,Turkmenistan,2001,     294,0
+213,Turkmenistan,2002,     609,     23
+213,Turkmenistan,2003,    1279,0
+213,Turkmenistan,2004,     621,0
+213,Turkmenistan,2005,     277,0
+213,Turkmenistan,2006,     352,0
+213,Turkmenistan,2007,     464,0
+213,Turkmenistan,2008,     222,0
+213,Turkmenistan,2009,     974,0
+213,Turkmenistan,2010,    1294,0
+213,Turkmenistan,2011,    2318,0
+214,"China, Taiwan Province of",2000,  134374,   9298
+214,"China, Taiwan Province of",2001,  111833,  10145
+214,"China, Taiwan Province of",2002,  115226,  11527
+214,"China, Taiwan Province of",2003,  116021,  10644
+214,"China, Taiwan Province of",2004,  142223,  12096
+214,"China, Taiwan Province of",2005,  162987,  11454
+214,"China, Taiwan Province of",2006,  183123,  16540
+214,"China, Taiwan Province of",2007,  154718,  20781
+214,"China, Taiwan Province of",2008,  155998,  22427
+214,"China, Taiwan Province of",2009,  158791,  20661
+214,"China, Taiwan Province of",2010,  192863,  27534
+214,"China, Taiwan Province of",2011,  240336,  42237
+215,United Republic of Tanzania,2000,    5103,  22215
+215,United Republic of Tanzania,2001,    3350,  20243
+215,United Republic of Tanzania,2002,    3894,  22588
+215,United Republic of Tanzania,2003,    5223,  23849
+215,United Republic of Tanzania,2004,    6064,  34134
+215,United Republic of Tanzania,2005,    6277,  43154
+215,United Republic of Tanzania,2006,    8507,  39440
+215,United Republic of Tanzania,2007,    8627,  69937
+215,United Republic of Tanzania,2008,   11398,  67536
+215,United Republic of Tanzania,2009,    9575,  81229
+215,United Republic of Tanzania,2010,   11162,  67173
+215,United Republic of Tanzania,2011,   13717,  88386
+216,Thailand,2000,   51376, 296340
+216,Thailand,2001,   47456, 319286
+216,Thailand,2002,   57684, 212656
+216,Thailand,2003,   70600, 257708
+216,Thailand,2004,   84712, 317068
+216,Thailand,2005,   99520, 285668
+216,Thailand,2006,   97259, 295525
+216,Thailand,2007,   96415, 459540
+216,Thailand,2008,  105296, 520100
+216,Thailand,2009,  106021, 412778
+216,Thailand,2010,  120784, 453698
+216,Thailand,2011,  203474, 623082
+217,Togo,2000,    6878,   1540
+217,Togo,2001,    6920,   2505
+217,Togo,2002,   11467,   4100
+217,Togo,2003,   10431,   9186
+217,Togo,2004,   11601,  20536
+217,Togo,2005,   14738,  39091
+217,Togo,2006,   16067,  28477
+217,Togo,2007,   17159,  44212
+217,Togo,2008,   19672,  49794
+217,Togo,2009,   16809,  59067
+217,Togo,2010,   20441,  29308
+217,Togo,2011,   24142,  71867
+219,Tonga,2000,0,0
+219,Tonga,2001,0,      6
+219,Tonga,2002,0,      0
+219,Tonga,2003,0,0
+219,Tonga,2004,0,0
+219,Tonga,2005,0,     45
+219,Tonga,2006,      25,0
+219,Tonga,2007,0,0
+219,Tonga,2008,0,0
+219,Tonga,2009,0,0
+219,Tonga,2010,0,0
+219,Tonga,2011,0,0
+220,Trinidad and Tobago,2000,    9415,    536
+220,Trinidad and Tobago,2001,   11137,    770
+220,Trinidad and Tobago,2002,   13139,    942
+220,Trinidad and Tobago,2003,   10896,   1030
+220,Trinidad and Tobago,2004,   12909,   3083
+220,Trinidad and Tobago,2005,   14626,   2773
+220,Trinidad and Tobago,2006,   16983,   6507
+220,Trinidad and Tobago,2007,   16547,   6179
+220,Trinidad and Tobago,2008,   19863,   9469
+220,Trinidad and Tobago,2009,   21694,   7237
+220,Trinidad and Tobago,2010,   20628,   4339
+220,Trinidad and Tobago,2011,   18829,   2666
+221,Oman,2000,   34433,      6
+221,Oman,2001,   31651,     25
+221,Oman,2002,   25703,    164
+221,Oman,2003,   25016,     86
+221,Oman,2004,   30780,    185
+221,Oman,2005,   36155,    159
+221,Oman,2006,   36887,     41
+221,Oman,2007,   51461,     56
+221,Oman,2008,   64327,     77
+221,Oman,2009,   40432,    652
+221,Oman,2010,   48338,    135
+221,Oman,2011,   68318,     52
+222,Tunisia,2000,   24932,   1029
+222,Tunisia,2001,   14138,    854
+222,Tunisia,2002,   25447,   1208
+222,Tunisia,2003,   17082,   1963
+222,Tunisia,2004,   38490,   2216
+222,Tunisia,2005,   41307,   3596
+222,Tunisia,2006,   25507,   5919
+222,Tunisia,2007,   49497,   4461
+222,Tunisia,2008,   30440,   4768
+222,Tunisia,2009,   39203,   5591
+222,Tunisia,2010,   27141,   5230
+222,Tunisia,2011,   42407,   8818
+223,Turkey,2000,   61672, 157431
+223,Turkey,2001,   39125, 153249
+223,Turkey,2002,   67785, 157617
+223,Turkey,2003,  103241, 184917
+223,Turkey,2004,  151392, 247099
+223,Turkey,2005,  161048, 271024
+223,Turkey,2006,  162081, 289732
+223,Turkey,2007,  195787, 272812
+223,Turkey,2008,  265666, 311306
+223,Turkey,2009,  266935, 304628
+223,Turkey,2010,  337614, 294001
+223,Turkey,2011,  410839, 313083
+224,Turks and Caicos Islands,2000,     510,0
+224,Turks and Caicos Islands,2001,     629,0
+224,Turks and Caicos Islands,2002,     729,     47
+224,Turks and Caicos Islands,2003,     869,0
+224,Turks and Caicos Islands,2004,     728,     87
+224,Turks and Caicos Islands,2005,     533,0
+224,Turks and Caicos Islands,2006,     584,0
+224,Turks and Caicos Islands,2007,     712,0
+224,Turks and Caicos Islands,2008,     640,0
+224,Turks and Caicos Islands,2009,     473,    293
+224,Turks and Caicos Islands,2010,     412,      2
+224,Turks and Caicos Islands,2011,     612,0
+225,United Arab Emirates,2000,  136767,   2776
+225,United Arab Emirates,2001,  129355,    729
+225,United Arab Emirates,2002,  147463,    802
+225,United Arab Emirates,2003,  156285,   1670
+225,United Arab Emirates,2004,  177840,   1396
+225,United Arab Emirates,2005,  221680,   2354
+225,United Arab Emirates,2006,  301155,   7843
+225,United Arab Emirates,2007,  331196,   5404
+225,United Arab Emirates,2008,  379207,   4715
+225,United Arab Emirates,2009,  344991,   4841
+225,United Arab Emirates,2010,  394625,   6856
+225,United Arab Emirates,2011,  456648,  25479
+226,Uganda,2000,    2462,  29744
+226,Uganda,2001,    1985,  32376
+226,Uganda,2002,    1234,  40202
+226,Uganda,2003,    1623,  55030
+226,Uganda,2004,    1633,  66600
+226,Uganda,2005,    1897,  70695
+226,Uganda,2006,    1537,  58440
+226,Uganda,2007,    2313,  82668
+226,Uganda,2008,    2646,  68264
+226,Uganda,2009,    2493,  79857
+226,Uganda,2010,    3044,  85895
+226,Uganda,2011,    5901, 105304
+229,United Kingdom,2000, 2731778, 598479
+229,United Kingdom,2001, 2909730, 538728
+229,United Kingdom,2002, 3327132, 635749
+229,United Kingdom,2003, 4809034, 781201
+229,United Kingdom,2004, 5321866, 838098
+229,United Kingdom,2005, 5699112, 784388
+229,United Kingdom,2006, 6158893, 866909
+229,United Kingdom,2007, 7887463,1099121
+229,United Kingdom,2008, 8788813,1571077
+229,United Kingdom,2009, 7690375,1307908
+229,United Kingdom,2010, 7489609,1521742
+229,United Kingdom,2011, 8578483,1956825
+230,Ukraine,2000,   22212,  67404
+230,Ukraine,2001,   27257,  78549
+230,Ukraine,2002,   50386,  34391
+230,Ukraine,2003,   51460,  35820
+230,Ukraine,2004,  140010,  47026
+230,Ukraine,2005,  140643,  29209
+230,Ukraine,2006,  167988,  52839
+230,Ukraine,2007,  180370, 128010
+230,Ukraine,2008,  309883, 500419
+230,Ukraine,2009,  217111, 298104
+230,Ukraine,2010,  261644, 268856
+230,Ukraine,2011,  270714, 474421
+231,United States of America,2000, 1393787,1716293
+231,United States of America,2001, 1456905,1341362
+231,United States of America,2002, 1870811,1278094
+231,United States of America,2003, 2072877,1348136
+231,United States of America,2004, 2178229,1466487
+231,United States of America,2005, 2114534,1259097
+231,United States of America,2006, 2312137,1394306
+231,United States of America,2007, 2569696,1434970
+231,United States of America,2008, 2317068,1815309
+231,United States of America,2009, 2019450,1302699
+231,United States of America,2010, 2133138,1648433
+231,United States of America,2011, 2124712,1828949
+233,Burkina Faso,2000,    3173,    205
+233,Burkina Faso,2001,    3611,    311
+233,Burkina Faso,2002,    3023,    117
+233,Burkina Faso,2003,    4940,    581
+233,Burkina Faso,2004,    5150,   1614
+233,Burkina Faso,2005,    4738,    773
+233,Burkina Faso,2006,    7689,   1091
+233,Burkina Faso,2007,    3219,   3078
+233,Burkina Faso,2008,    4206,   3394
+233,Burkina Faso,2009,    4866,   3343
+233,Burkina Faso,2010,    5071,   3958
+233,Burkina Faso,2011,    8924,   3267
+234,Uruguay,2000,    7224,  28000
+234,Uruguay,2001,    6602,  31738
+234,Uruguay,2002,    5445,  35978
+234,Uruguay,2003,    2690,  70478
+234,Uruguay,2004,    3127,  73549
+234,Uruguay,2005,    3324,  60397
+234,Uruguay,2006,    5585,  76282
+234,Uruguay,2007,    6997,  93616
+234,Uruguay,2008,   10395, 194765
+234,Uruguay,2009,   14125, 173158
+234,Uruguay,2010,   14117, 224220
+234,Uruguay,2011,   19880, 164108
+235,Uzbekistan,2000,    5351,    276
+235,Uzbekistan,2001,    4739,    676
+235,Uzbekistan,2002,    2389,    965
+235,Uzbekistan,2003,    5848,    828
+235,Uzbekistan,2004,    2408,   1452
+235,Uzbekistan,2005,    3349,    923
+235,Uzbekistan,2006,    4633,   1993
+235,Uzbekistan,2007,   11195,   2480
+235,Uzbekistan,2008,    4437,   3114
+235,Uzbekistan,2009,    7495,   1549
+235,Uzbekistan,2010,   13211,   3228
+235,Uzbekistan,2011,   14979,   4575
+236,Venezuela (Bolivarian Republic of),2000,   39362,  10053
+236,Venezuela (Bolivarian Republic of),2001,   34032,   8951
+236,Venezuela (Bolivarian Republic of),2002,   27638,   8493
+236,Venezuela (Bolivarian Republic of),2003,   14665,   9055
+236,Venezuela (Bolivarian Republic of),2004,   29132,  10464
+236,Venezuela (Bolivarian Republic of),2005,   23689,   4363
+236,Venezuela (Bolivarian Republic of),2006,   45791,   8162
+236,Venezuela (Bolivarian Republic of),2007,   54786,   6338
+236,Venezuela (Bolivarian Republic of),2008,   91124,  10070
+236,Venezuela (Bolivarian Republic of),2009,   66308,   8832
+236,Venezuela (Bolivarian Republic of),2010,   48427,   8030
+236,Venezuela (Bolivarian Republic of),2011,   47844,   5715
+237,Viet Nam,2000,   15702,  46523
+237,Viet Nam,2001,   23209,  37662
+237,Viet Nam,2002,   32717,  49892
+237,Viet Nam,2003,   51123,  72361
+237,Viet Nam,2004,   79413,  86022
+237,Viet Nam,2005,  101468, 110436
+237,Viet Nam,2006,   91484, 139152
+237,Viet Nam,2007,   85638, 186049
+237,Viet Nam,2008,  112806, 217902
+237,Viet Nam,2009,  192805, 213436
+237,Viet Nam,2010,  245626, 241354
+237,Viet Nam,2011,  276094, 349582
+238,Ethiopia,2000,    2577,   9615
+238,Ethiopia,2001,    1507,   2248
+238,Ethiopia,2002,    1639,   6632
+238,Ethiopia,2003,    2320,   6576
+238,Ethiopia,2004,    6369,   9264
+238,Ethiopia,2005,    7413,  18555
+238,Ethiopia,2006,    7358,  39927
+238,Ethiopia,2007,    7584,  61767
+238,Ethiopia,2008,    5666, 106192
+238,Ethiopia,2009,    6406, 102602
+238,Ethiopia,2010,    5179,  51979
+238,Ethiopia,2011,   14386,  60852
+239,British Virgin Islands,2000,     876,0
+239,British Virgin Islands,2001,     945,0
+239,British Virgin Islands,2002,    1192,0
+239,British Virgin Islands,2003,    1391,0
+239,British Virgin Islands,2004,    3462,0
+239,British Virgin Islands,2005,    1665,     78
+239,British Virgin Islands,2006,    1484,0
+239,British Virgin Islands,2007,    1901,     49
+239,British Virgin Islands,2008,    2597,0
+239,British Virgin Islands,2009,    2429,0
+239,British Virgin Islands,2010,    3033,0
+239,British Virgin Islands,2011,    1400,     18
+243,Wallis and Futuna Islands,2000,     116,0
+243,Wallis and Futuna Islands,2001,     186,0
+243,Wallis and Futuna Islands,2002,     146,0
+243,Wallis and Futuna Islands,2003,     216,0
+243,Wallis and Futuna Islands,2004,     100,0
+243,Wallis and Futuna Islands,2005,     795,     34
+243,Wallis and Futuna Islands,2006,      44,0
+243,Wallis and Futuna Islands,2007,      78,0
+243,Wallis and Futuna Islands,2008,     101,0
+243,Wallis and Futuna Islands,2009,      88,0
+243,Wallis and Futuna Islands,2010,     535,0
+243,Wallis and Futuna Islands,2011,     903,0
+244,Samoa,2000,0,    470
+244,Samoa,2001,0,      9
+244,Samoa,2002,0,      4
+244,Samoa,2003,0,      3
+244,Samoa,2004,0,     14
+244,Samoa,2005,      77,     92
+244,Samoa,2006,     111,      1
+244,Samoa,2007,      11,0
+244,Samoa,2008,0,0
+244,Samoa,2009,0,0
+244,Samoa,2010,      58,    134
+244,Samoa,2011,      90,     79
+249,Yemen,2000,   23128,0
+249,Yemen,2001,   28662,0
+249,Yemen,2002,   22216,      0
+249,Yemen,2003,   31692,     40
+249,Yemen,2004,   36113,     97
+249,Yemen,2005,   38775,    474
+249,Yemen,2006,   34925,0
+249,Yemen,2007,   43415,    345
+249,Yemen,2008,   74077,    163
+249,Yemen,2009,   80414,      0
+249,Yemen,2010,   39940,      0
+249,Yemen,2011,   42357,    124
+250,Democratic Republic of the Congo,2000,   18753,   3754
+250,Democratic Republic of the Congo,2001,   18873,   1164
+250,Democratic Republic of the Congo,2002,   28596,    334
+250,Democratic Republic of the Congo,2003,   19768,    378
+250,Democratic Republic of the Congo,2004,   18364,    689
+250,Democratic Republic of the Congo,2005,   31512,   1246
+250,Democratic Republic of the Congo,2006,   31061,    970
+250,Democratic Republic of the Congo,2007,   47148,   2857
+250,Democratic Republic of the Congo,2008,   51125,   2915
+250,Democratic Republic of the Congo,2009,   48616,   6476
+250,Democratic Republic of the Congo,2010,   55756,   3274
+250,Democratic Republic of the Congo,2011,   77250,    759
+251,Zambia,2000,     338,  16592
+251,Zambia,2001,     253,  16740
+251,Zambia,2002,     331,  22648
+251,Zambia,2003,     201,  20629
+251,Zambia,2004,    1158,  18283
+251,Zambia,2005,     450,  18732
+251,Zambia,2006,     657,  17288
+251,Zambia,2007,     804,  21597
+251,Zambia,2008,    1144,  20929
+251,Zambia,2009,    1174,  15352
+251,Zambia,2010,    1692,  16896
+251,Zambia,2011,    1843,  16935
+252,Unspecified,2000,  636305, 218354
+252,Unspecified,2001,  419623, 154977
+252,Unspecified,2002,  407687, 181808
+252,Unspecified,2003,  540163, 128923
+252,Unspecified,2004,  262283,  85222
+252,Unspecified,2005,  411652,  97314
+252,Unspecified,2006,  433382, 104295
+252,Unspecified,2007,  290428, 137365
+252,Unspecified,2008,  424082,  62916
+252,Unspecified,2009,  607034,  74520
+252,Unspecified,2010,  327096, 133565
+252,Unspecified,2011,  616513, 406619
+255,Belgium,2000, 1975673,1829497
+255,Belgium,2001, 2167496,1784910
+255,Belgium,2002, 2710591,2198346
+255,Belgium,2003, 3654454,3084034
+255,Belgium,2004, 4089927,3599506
+255,Belgium,2005, 4325336,3653724
+255,Belgium,2006, 4517510,3635319
+255,Belgium,2007, 5755249,4596759
+255,Belgium,2008, 7428721,5449310
+255,Belgium,2009, 6868724,5307356
+255,Belgium,2010, 7199641,5375707
+255,Belgium,2011, 8541862,6609468
+256,Luxembourg,2000,   43838,  24031
+256,Luxembourg,2001,   45044,  14069
+256,Luxembourg,2002,   59095,  15370
+256,Luxembourg,2003,   85872,  36458
+256,Luxembourg,2004,  106360,  50349
+256,Luxembourg,2005,  125790,  67958
+256,Luxembourg,2006,  126768,  56511
+256,Luxembourg,2007,  165014,  71975
+256,Luxembourg,2008,  224401,  73192
+256,Luxembourg,2009,  222529,  88655
+256,Luxembourg,2010,  353065,  94844
+256,Luxembourg,2011,  313916, 146298
+270,Mayotte,2000,0,0
+270,Mayotte,2001,     408,     10
+270,Mayotte,2002,     371,0
+270,Mayotte,2003,     545,0
+270,Mayotte,2004,     875,0
+270,Mayotte,2005,    2932,0
+270,Mayotte,2006,    2017,0
+270,Mayotte,2007,    3319,0
+270,Mayotte,2008,    2739,0
+270,Mayotte,2009,    2529,0
+270,Mayotte,2010,    2886,0
+270,Mayotte,2011,    2883,0
+272,Serbia,2000,0,0
+272,Serbia,2001,0,0
+272,Serbia,2002,0,0
+272,Serbia,2003,0,0
+272,Serbia,2004,0,0
+272,Serbia,2005,0,0
+272,Serbia,2006,   40689,   9577
+272,Serbia,2007,   54150,  12205
+272,Serbia,2008,   96767,  11137
+272,Serbia,2009,   66738,  17176
+272,Serbia,2010,   69465,  23965
+272,Serbia,2011,   69092,  27807
+273,Montenegro,2000,0,0
+273,Montenegro,2001,0,0
+273,Montenegro,2002,0,0
+273,Montenegro,2003,0,0
+273,Montenegro,2004,0,0
+273,Montenegro,2005,0,0
+273,Montenegro,2006,   13375,      0
+273,Montenegro,2007,   20677,0
+273,Montenegro,2008,   27708,      0
+273,Montenegro,2009,   25734,      6
+273,Montenegro,2010,   24898,    341
+273,Montenegro,2011,   28688,      2
+299,Occupied Palestinian Territory,2000,0,    578
+299,Occupied Palestinian Territory,2001,0,   2396
+299,Occupied Palestinian Territory,2002,0,0
+299,Occupied Palestinian Territory,2003,0,0
+299,Occupied Palestinian Territory,2004,0,0
+299,Occupied Palestinian Territory,2005,     490,   4386
+299,Occupied Palestinian Territory,2006,     588,   4187
+299,Occupied Palestinian Territory,2007,    1354,   4830
+299,Occupied Palestinian Territory,2008,    1402,    796
+299,Occupied Palestinian Territory,2009,     912,    369
+299,Occupied Palestinian Territory,2010,    1267,   1743
+299,Occupied Palestinian Territory,2011,    1707,   1036
+351,China,2000,  392853, 266711
+351,China,2001,  313881, 229121
+351,China,2002,  360186, 260025
+351,China,2003,  365147, 330939
+351,China,2004,  494369, 356230
+351,China,2005,  533792, 437944
+351,China,2006,  599650, 553099
+351,China,2007,  630079, 747351
+351,China,2008,  850779, 846322
+351,China,2009, 1134826, 809213
+351,China,2010, 1391428, 878245
+351,China,2011, 2015292,1006590
