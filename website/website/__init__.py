@@ -11,7 +11,7 @@ def world():
 
 @app.route('/netherlands')
 def netherlands():
-	return render_template('netherlands.html')
+    return render_template('netherlands.html')
 
 @app.route('/detailed/')
 @app.route('/detailed/<country>')
