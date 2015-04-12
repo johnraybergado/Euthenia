@@ -14,31 +14,31 @@ def netherlands():
     return render_template('netherlands.html')
 
 @app.route('/data')
-def netherlands():
+def data():
     return render_template('data.html')
 
 @app.route('/cereals')
-def netherlands():
+def cereals():
     return render_template('cereals.html')
 
 @app.route('/fruits')
-def netherlands():
+def fruits():
     return render_template('fruits.html')
 
 @app.route('/meat')
-def netherlands():
+def meat():
     return render_template('meat.html')
 
 @app.route('/oilseeds')
-def netherlands():
+def oilseeds():
     return render_template('oilseeds.html')
 
 @app.route('/othercashcrops')
-def netherlands():
+def othercashcrops():
     return render_template('othercashcrops.html')
 
 @app.route('/roots')
-def netherlands():
+def roots():
     return render_template('roots.html')
 
 @app.route('/detailed/')
