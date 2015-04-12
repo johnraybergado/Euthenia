@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" >
+		window.onload=function(){
+		var data = [1732, 5380, 1360, -1961];
+		
+		var margin = {top: 30, right: 10, bottom: 10, left: 30},
+			width = 960 - margin.left - margin.right,
+			height = 500 - margin.top - margin.bottom;
+		
+		var y0 = Math.max(Math.abs(d3.min(data)), Math.abs(d3.max(data)));
+		
+		var y = d3.scale.linear()
+			.domain([-y0, y0])
+			.range([height,0])
+			.nice();
+		
+		var x = d3.scale.ordinal()
+			.domain(d3.range(data.length))
+			.rangeRoundBands([0, width], .6);
+		
+		var yAxis = d3.svg.axis()
+			.scale(y)
+			.orient("right");
+		
+		var svg = d3.select("body").append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+		  .append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+		
+		svg.selectAll(".bar")
+			.data(data)
+		  .enter().append("rect")
+			.attr("class", function(d) { return d < 0 ? "bar negative" : "bar positive"; })
+			.attr("y", function(d) { return y(Math.max(0, d)); })
+			.attr("x", function(d, i) { return x(i); })
+			.attr("height", function(d) { return Math.abs(y(d) - y(0)); })
+			.attr("width", x.rangeBand());
+		
+		svg.append("g")
+			.attr("class", "x axis")
+			.call(yAxis);
+		
+		svg.append("g")
+			.attr("class", "y axis")
+		  .append("line")
+			.attr("y1", y(0))
+			.attr("y2", y(0))
+			.attr("x1", 0)
+			.attr("x2", width);
+		}
+	</script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Subcategories', ' Total Sufficiecy (in millions)'],
+          ['Wheats & Products', 3763], ['Rice (milled)', 127], ['Barley', 721],
+          ['Maize', 1734], ['Rye', 44], ['Oats', 41],
+          ['Millets', 14], ['Sorghum', 7], ['Cereals- Others', 80]
+        ]);
+
+        var options = {
+          title: 'Subcategorization of Crop - Cereals (Excluding Beer)',
+          legend: 'none',
+          pieSliceText: 'label',
+          slices: {  4: {offset: 0.2},
+                    12: {offset: 0.3},
+                    14: {offset: 0.4},
+                    15: {offset: 0.5},
+          },
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(data, options);
+      }
+    </script>
+    <style>
+		@charset "utf-8";
+		/* CSS Document */
+		
+		.bar.positive {
+		  fill: steelblue;
+		}
+		
+		.bar.negative {
+		  fill: brown;
+		}
+		
+		.axis text {
+		  font: 10px sans-serif;
+		}
+		.bar.positive {
+		  fill: steelblue;
+		}
+		
+		.bar.negative {
+		  fill: brown;
+		}
+		
+		.axis text {
+		  font: 10px sans-serif;
+		}
+		
+		.axis path,
+		.axis line {
+		  fill: none;
+		  stroke: #000;
+		  shape-rendering: crispEdges;
+		}
+		.bar.positive {
+		  fill: steelblue;
+		}
+		
+		.bar.negative {
+		  fill: brown;
+		}
+		
+		.axis text {
+		  font: 10px sans-serif;
+		}
+		
+		.axis path,
+		.axis line {
+		  fill: none;
+		  stroke: #000;
+		  shape-rendering: crispEdges;
+		}
+	</style>
+
+</head>
+<body>
+    <h1>Subcategorization</h1>
+    <div id="piechart" style="width: 900px; height: 500px;"></div>
+    <h1>Suffiency</h1>
+    <p>1. Production in the country | 2. Import | 3. Stockpile | 4. Export</p>
+</body>
