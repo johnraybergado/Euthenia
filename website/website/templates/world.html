@@ -159,7 +159,13 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiZGltYWR1YW4wMjQiLCJhIjoickFTSjk5OCJ9.WKoh_rNO
 
   function mouseclick(e) {
       var layer = e.target;
-      window.location.href = '/detailed/' + layer.feature.properties.name;
+      // hack show only detailed nl data
+      if (layer.feature.properties.name == "Netherlands") {
+        window.location.href = 'netherlands';
+      }
+      else {
+        window.location.href = '/detailed/' + layer.feature.properties.name;
+      }
   }
 
   // function zoomToFeature(e) {
